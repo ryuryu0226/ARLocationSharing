@@ -1,3 +1,4 @@
+-a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
@@ -9,6 +10,7 @@
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Unity.XR.ARCore.dll"
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Unity.XR.ARSubsystems.dll"
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Unity.XR.ARFoundation.dll"
+-a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies\Google.XR.ARCoreExtensions.dll"
 -a="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll"
 -s="D:\Unity\2020.3.20f1\Editor\Data\Managed\UnityEngine"
 -s="D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\ARLocationSharing\Library\PlayerScriptAssemblies"

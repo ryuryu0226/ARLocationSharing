@@ -1,5 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController
+    - Google.XR.ARCoreExtensions.Samples.Geospatial.SafeAreaScaler
+    Google.XR.ARCoreExtensions.dll:
+    - Google.XR.ARCoreExtensions.ARCoreExtensions
+    - Google.XR.ARCoreExtensions.ARCoreExtensionsConfig
+    - Google.XR.ARCoreExtensions.AREarthManager
+    - Google.XR.ARCoreExtensions.Internal.RuntimeConfig
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -7,6 +15,7 @@ ScriptsOnlyBuild:
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARAnchorManager
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
@@ -26,8 +35,18 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Samples/ARCore Extensions/1.31.0/Geospatial Sample/Scenes/Geospatial.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -46,10 +65,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -57,22 +72,62 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
       Script: {instanceID: 1618}
     - Class: 114
+      Script: {instanceID: 2128}
+    - Class: 114
+      Script: {instanceID: 2478}
+    - Class: 114
       Script: {instanceID: 2506}
+    - Class: 114
+      Script: {instanceID: 2590}
+    - Class: 114
+      Script: {instanceID: 2802}
+    - Class: 114
+      Script: {instanceID: 3020}
+    - Class: 114
+      Script: {instanceID: 3130}
     - Class: 114
       Script: {instanceID: 3318}
     - Class: 114
       Script: {instanceID: 3322}
     - Class: 114
+      Script: {instanceID: 3326}
+    - Class: 114
+      Script: {instanceID: 3328}
+    - Class: 114
+      Script: {instanceID: 3456}
+    - Class: 114
       Script: {instanceID: 3808}
     - Class: 114
       Script: {instanceID: 4094}
+    - Class: 114
+      Script: {instanceID: 16980}
+    - Class: 114
+      Script: {instanceID: 16998}
+    - Class: 114
+      Script: {instanceID: 17108}
+    - Class: 114
+      Script: {instanceID: 17314}
+    - Class: 114
+      Script: {instanceID: 17316}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -759,7 +814,85 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARCloudAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: a838d95493884cadb4841e627781c547
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARCoreExtensionsConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: AREarthManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARGeospatialAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: a233a4665d38b1ca7f9664371e6b8fb0
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions.Internal
+    className: RuntimeConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 76b6a7ad1eb682765efba0fbc17b8bc6
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARCoreRecordingConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARRecordingManager
+  - hash:
+      serializedVersion: 2
+      Hash: fe52c2703fa853b207fa35e04b9e35d8
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARCoreExtensionsCameraConfigFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 1cda2d67628228f575120c220ac26158
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARCoreExtensions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARCloudReferencePoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Google.XR.ARCoreExtensions.dll
+    namespaceName: Google.XR.ARCoreExtensions
+    className: ARPlaybackManager
+  - hash:
+      serializedVersion: 2
+      Hash: 11259e2374327b035a9ac914ba5f8238
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.XR.ARCoreExtensions.Samples.Geospatial
+    className: GeospatialController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Google.XR.ARCoreExtensions.Samples.Geospatial
+    className: SafeAreaScaler
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/ar_sample_android.apk
+  - Assets/Samples/ARCore Extensions/1.31.0/Geospatial Sample/Scenes/Geospatial.unity
+  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/geospatial_sample_android.apk

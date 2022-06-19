@@ -61,3 +61,4 @@ crashlytics-build.properties
 
 # MyIgnore
 ARLocationSharing/Temp/UnityLockfile
+*.so

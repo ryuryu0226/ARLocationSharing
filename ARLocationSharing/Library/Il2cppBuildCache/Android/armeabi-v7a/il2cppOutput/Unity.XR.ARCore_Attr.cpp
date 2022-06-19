@@ -28,6 +28,8 @@ struct CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C;
 struct DeallocateOnJobCompletionAttribute_t9DD74D14DC0E26E36F239BC9A51229AEDC02DC59;
 // System.Diagnostics.DebuggableAttribute
 struct DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B;
+// System.Diagnostics.DebuggerBrowsableAttribute
+struct DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53;
 // Microsoft.CodeAnalysis.EmbeddedAttribute
 struct EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683;
 // System.Runtime.CompilerServices.ExtensionAttribute
@@ -482,6 +484,24 @@ public:
 };
 
 
+// System.Diagnostics.DebuggerBrowsableState
+struct DebuggerBrowsableState_t2A824ECEB650CFABB239FD0918FCC88A09B45091 
+{
+public:
+	// System.Int32 System.Diagnostics.DebuggerBrowsableState::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DebuggerBrowsableState_t2A824ECEB650CFABB239FD0918FCC88A09B45091, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.RuntimeInitializeLoadType
 struct RuntimeInitializeLoadType_t78BE0E3079AE8955C97DF6A9814A6E6BFA146EA5 
 {
@@ -550,6 +570,24 @@ public:
 	inline void set_m_debuggingModes_0(int32_t value)
 	{
 		___m_debuggingModes_0 = value;
+	}
+};
+
+
+// System.Diagnostics.DebuggerBrowsableAttribute
+struct DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+	// System.Diagnostics.DebuggerBrowsableState System.Diagnostics.DebuggerBrowsableAttribute::state
+	int32_t ___state_0;
+
+public:
+	inline static int32_t get_offset_of_state_0() { return static_cast<int32_t>(offsetof(DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53, ___state_0)); }
+	inline int32_t get_state_0() const { return ___state_0; }
+	inline int32_t* get_address_of_state_0() { return &___state_0; }
+	inline void set_state_0(int32_t value)
+	{
+		___state_0 = value;
 	}
 };
 
@@ -697,6 +735,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m5FF3E43286029B3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2 (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.RuntimeInitializeOnLoadMethodAttribute::.ctor(UnityEngine.RuntimeInitializeLoadType)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeInitializeOnLoadMethodAttribute__ctor_mE79C8FD7B18EC53391334A6E6A66CAF09CDA8516 (RuntimeInitializeOnLoadMethodAttribute_tDE87D2AA72896514411AC9F8F48A4084536BDC2D * __this, int32_t ___loadType0, const RuntimeMethod* method);
+// System.Void System.Diagnostics.DebuggerBrowsableAttribute::.ctor(System.Diagnostics.DebuggerBrowsableState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5 (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * __this, int32_t ___state0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IsReadOnlyAttribute__ctor_m68423EC46559DA03605A6949B6763D9E6EEE4A2E (IsReadOnlyAttribute_tD530F69C68E4F1B67500736002AFCE402A1AC6B3 * __this, const RuntimeMethod* method);
 // System.Void System.ObsoleteAttribute::.ctor(System.String)
@@ -736,7 +776,7 @@ static void Unity_XR_ARCore_CustomAttributesCacheGenerator(CustomAttributesCache
 	}
 	{
 		DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B * tmp = (DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B *)cache->attributes[4];
-		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 2LL, NULL);
+		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 263LL, NULL);
 	}
 }
 static void EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -753,12 +793,12 @@ static void EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683_CustomAt
 static void IsReadOnlyAttribute_tD530F69C68E4F1B67500736002AFCE402A1AC6B3_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683 * tmp = (EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683 *)cache->attributes[0];
-		EmbeddedAttribute__ctor_m5FF3E43286029B3F477B0E7C80B4476290CB45B8(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683 * tmp = (EmbeddedAttribute_t6A541C71E0097C5799E797B35A452915206CD683 *)cache->attributes[1];
+		EmbeddedAttribute__ctor_m5FF3E43286029B3F477B0E7C80B4476290CB45B8(tmp, NULL);
 	}
 }
 static void ARCoreAnchorSubsystem_tE68ED395D5147C6A9919354DEDFA28994710B2E0_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -781,6 +821,10 @@ static void Api_tA5A93D3FA25743B4E8BE983E462FD978A8DE4A15_CustomAttributesCacheG
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
+	{
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
+	}
 }
 static void Api_tA5A93D3FA25743B4E8BE983E462FD978A8DE4A15_CustomAttributesCacheGenerator_Api_get_loaderPresent_m89925F1D6D6FE49D77A3745C65B43E39368D6D38(CustomAttributesCache* cache)
 {
@@ -792,7 +836,11 @@ static void Api_tA5A93D3FA25743B4E8BE983E462FD978A8DE4A15_CustomAttributesCacheG
 static void ARCoreBeforeGetCameraConfigurationEventArgs_t78846470558CC1AA065FD67F0207BCBC479139C9_CustomAttributesCacheGenerator_U3CsessionU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[0];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
+	}
+	{
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
@@ -802,16 +850,20 @@ static void ARCoreBeforeGetCameraConfigurationEventArgs_t78846470558CC1AA065FD67
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
+	{
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
+	}
 }
 static void ARCoreBeforeGetCameraConfigurationEventArgs_t78846470558CC1AA065FD67F0207BCBC479139C9_CustomAttributesCacheGenerator_ARCoreBeforeGetCameraConfigurationEventArgs_get_session_mF181F614D197960A751E280BCECDE97EBD202751(CustomAttributesCache* cache)
 {
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_tD530F69C68E4F1B67500736002AFCE402A1AC6B3 * tmp = (IsReadOnlyAttribute_tD530F69C68E4F1B67500736002AFCE402A1AC6B3 *)cache->attributes[0];
+		IsReadOnlyAttribute__ctor_m68423EC46559DA03605A6949B6763D9E6EEE4A2E(tmp, NULL);
 	}
 	{
-		IsReadOnlyAttribute_tD530F69C68E4F1B67500736002AFCE402A1AC6B3 * tmp = (IsReadOnlyAttribute_tD530F69C68E4F1B67500736002AFCE402A1AC6B3 *)cache->attributes[1];
-		IsReadOnlyAttribute__ctor_m68423EC46559DA03605A6949B6763D9E6EEE4A2E(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
 static void ARCoreBeforeGetCameraConfigurationEventArgs_t78846470558CC1AA065FD67F0207BCBC479139C9_CustomAttributesCacheGenerator_ARCoreBeforeGetCameraConfigurationEventArgs_set_session_mBF6C88F3A5E8637460111B5A6C01922871129B9A(CustomAttributesCache* cache)
@@ -880,6 +932,10 @@ static void ARCoreProvider_tF0C64A4C988B3301AC887A017D7F9C2E03FA2B82_CustomAttri
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
+	{
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
+	}
 }
 static void ARCoreProvider_tF0C64A4C988B3301AC887A017D7F9C2E03FA2B82_CustomAttributesCacheGenerator_ARCoreProvider_add_m_BeforeGetCameraConfiguration_mDE4BFF23A6337DF442D7C7CBD45E1F2FC72BA39E(CustomAttributesCache* cache)
 {
@@ -913,6 +969,10 @@ static void ARCoreCpuImageApi_tFC77396316374BCB9BB8B085942C0A27B8811F78_CustomAt
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
 	}
 }
 static void ARCoreCpuImageApi_tFC77396316374BCB9BB8B085942C0A27B8811F78_CustomAttributesCacheGenerator_ARCoreCpuImageApi_get_instance_m85CC4E4C359B1F0DE58502C8471DEA7328234A32(CustomAttributesCache* cache)
@@ -1124,6 +1184,10 @@ static void ARCoreSessionSubsystem_tFF74CE3FF58D5BB9130DF221576CF1EFD23BF375_Cus
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
+	{
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
+	}
 }
 static void ARCoreSessionSubsystem_tFF74CE3FF58D5BB9130DF221576CF1EFD23BF375_CustomAttributesCacheGenerator_ARCoreSessionSubsystem_add_beforeSetConfiguration_m39749F2DBBC709FBE92074C3AA97BDB017F93AD5(CustomAttributesCache* cache)
 {
@@ -1151,6 +1215,10 @@ static void ARCoreProvider_t746C92AE44CFE1C12ACF9617C6055D53EB68D2F8_CustomAttri
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 * tmp = (DebuggerBrowsableAttribute_t2FA4793AD1982F5150E07D26822ED5953CD90F53 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_mAA8BCC1E418754685F320B14A08AC226E76346E5(tmp, 0LL, NULL);
 	}
 }
 static void ARCoreProvider_t746C92AE44CFE1C12ACF9617C6055D53EB68D2F8_CustomAttributesCacheGenerator_ARCoreProvider_add_beforeSetConfiguration_m988029F05C1D432BFD254EAA9C84EE9B97D3615A(CustomAttributesCache* cache)
@@ -1380,12 +1448,12 @@ static void ConvertBGRA32ToGrayscaleJob_t8A023D39737042B6AD31DDB3329D29FE7D5E384
 static void ConvertBGRA32ToGrayscaleJob_t8A023D39737042B6AD31DDB3329D29FE7D5E3845_CustomAttributesCacheGenerator_grayscaleImageOut(CustomAttributesCache* cache)
 {
 	{
-		WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA * tmp = (WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA *)cache->attributes[0];
-		WriteOnlyAttribute__ctor_m192B6FC3CA901E8D8F15B9ED0E548EEC6EC4DF2F(tmp, NULL);
+		NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 * tmp = (NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 *)cache->attributes[0];
+		NativeDisableParallelForRestrictionAttribute__ctor_m1D60D0ADDB3C5B35ECD76CBBED3A27037FA44BDD(tmp, NULL);
 	}
 	{
-		NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 * tmp = (NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 *)cache->attributes[1];
-		NativeDisableParallelForRestrictionAttribute__ctor_m1D60D0ADDB3C5B35ECD76CBBED3A27037FA44BDD(tmp, NULL);
+		WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA * tmp = (WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA *)cache->attributes[1];
+		WriteOnlyAttribute__ctor_m192B6FC3CA901E8D8F15B9ED0E548EEC6EC4DF2F(tmp, NULL);
 	}
 }
 static void ConvertARGB32ToGrayscaleJob_tB598C5374C56DCE1B70E61F8C57B7194A88D7C9F_CustomAttributesCacheGenerator_colorImageIn(CustomAttributesCache* cache)
@@ -1402,23 +1470,23 @@ static void ConvertARGB32ToGrayscaleJob_tB598C5374C56DCE1B70E61F8C57B7194A88D7C9
 static void ConvertARGB32ToGrayscaleJob_tB598C5374C56DCE1B70E61F8C57B7194A88D7C9F_CustomAttributesCacheGenerator_grayscaleImageOut(CustomAttributesCache* cache)
 {
 	{
-		NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 * tmp = (NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 *)cache->attributes[0];
-		NativeDisableParallelForRestrictionAttribute__ctor_m1D60D0ADDB3C5B35ECD76CBBED3A27037FA44BDD(tmp, NULL);
+		WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA * tmp = (WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA *)cache->attributes[0];
+		WriteOnlyAttribute__ctor_m192B6FC3CA901E8D8F15B9ED0E548EEC6EC4DF2F(tmp, NULL);
 	}
 	{
-		WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA * tmp = (WriteOnlyAttribute_t6897770F57B21F93E440F44DF3D1A5804D6019FA *)cache->attributes[1];
-		WriteOnlyAttribute__ctor_m192B6FC3CA901E8D8F15B9ED0E548EEC6EC4DF2F(tmp, NULL);
+		NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 * tmp = (NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 *)cache->attributes[1];
+		NativeDisableParallelForRestrictionAttribute__ctor_m1D60D0ADDB3C5B35ECD76CBBED3A27037FA44BDD(tmp, NULL);
 	}
 }
 static void ConvertStridedToGrayscaleJob_t56655DB995EF94ED1265206867B4A83D07B7CE32_CustomAttributesCacheGenerator_colorImageIn(CustomAttributesCache* cache)
 {
 	{
-		ReadOnlyAttribute_tCC6735BA1767371FBF636DC57BA8A8A4E4AE7F8D * tmp = (ReadOnlyAttribute_tCC6735BA1767371FBF636DC57BA8A8A4E4AE7F8D *)cache->attributes[0];
-		ReadOnlyAttribute__ctor_mAD4CE17A9D08D1361B9D0E789E9B7DEA9A343ABF(tmp, NULL);
+		NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 * tmp = (NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 *)cache->attributes[0];
+		NativeDisableParallelForRestrictionAttribute__ctor_m1D60D0ADDB3C5B35ECD76CBBED3A27037FA44BDD(tmp, NULL);
 	}
 	{
-		NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 * tmp = (NativeDisableParallelForRestrictionAttribute_t53B8478A2BD79DD7A9C47B1E2EC7DF38501FC743 *)cache->attributes[1];
-		NativeDisableParallelForRestrictionAttribute__ctor_m1D60D0ADDB3C5B35ECD76CBBED3A27037FA44BDD(tmp, NULL);
+		ReadOnlyAttribute_tCC6735BA1767371FBF636DC57BA8A8A4E4AE7F8D * tmp = (ReadOnlyAttribute_tCC6735BA1767371FBF636DC57BA8A8A4E4AE7F8D *)cache->attributes[1];
+		ReadOnlyAttribute__ctor_mAD4CE17A9D08D1361B9D0E789E9B7DEA9A343ABF(tmp, NULL);
 	}
 }
 static void ConvertStridedToGrayscaleJob_t56655DB995EF94ED1265206867B4A83D07B7CE32_CustomAttributesCacheGenerator_grayscaleImageOut(CustomAttributesCache* cache)
