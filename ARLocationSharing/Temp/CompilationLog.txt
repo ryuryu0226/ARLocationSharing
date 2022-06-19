@@ -1,0 +1,22 @@
+# Starting compiling UnityEngine.TestRunner.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-3206ee0ec7df6be49af38c92c5a9bf9b
+# Starting compiling UnityEngine.UI.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-222bb462ee9f6274686883158db00049
+# Starting compiling Unity.Timeline.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-9c3958d3295330e48b8403e64dcb1893
+# Starting compiling Unity.TextMeshPro.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-13bd3cc39fef8c8478ef643cdc9b006e
+# Starting compiling Unity.Subsystem.Registration.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-845951a90e67e8b468139d5b3f62f583
+# Starting compiling UnityEngine.SpatialTracking.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-12db50603ce78f447b00bc68c49c2d10
+# Starting compiling Unity.XR.Management.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-5cd2b414fa13cb041a7d3cfa8c31b667
+# Starting compiling Unity.XR.ARSubsystems.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-6c3929425c91e47498920aaaaa508ad1
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ac7839c95891d714299c64021ae54e03
+# Starting compiling Unity.XR.ARCore.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-88bf41facadd1a442a1c1532f8f7c9b6
+# Starting compiling Unity.XR.ARFoundation.dll
+D:\Unity\2020.3.20f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-001a7227864b23b4eab31fa50572959d

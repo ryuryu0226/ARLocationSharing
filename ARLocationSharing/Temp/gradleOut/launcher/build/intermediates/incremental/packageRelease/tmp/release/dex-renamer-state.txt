@@ -1,0 +1,4 @@
+#Sun Jun 19 19:40:11 JST 2022
+base.0=D\:\\Uramune_Developing\\UnityProject\\Project\\ARLocationSharing\\ARLocationSharing\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
