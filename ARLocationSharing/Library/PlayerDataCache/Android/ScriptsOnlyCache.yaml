@@ -1,7 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - MyGeoSpatial
+    - AR_Fukuoka.VpsInitializer
+    - SampleScript
     Google.XR.ARCoreExtensions.dll:
     - Google.XR.ARCoreExtensions.ARCoreExtensions
     - Google.XR.ARCoreExtensions.ARCoreExtensionsConfig
@@ -14,6 +15,7 @@ ScriptsOnlyBuild:
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARAnchorManager
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
@@ -34,14 +36,11 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/ARSample2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -60,8 +59,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -71,8 +68,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1544}
-    - Class: 114
       Script: {instanceID: 1648}
     - Class: 114
       Script: {instanceID: 2196}
@@ -81,30 +76,34 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2682}
-    - Class: 114
       Script: {instanceID: 2766}
     - Class: 114
       Script: {instanceID: 2904}
     - Class: 114
       Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3460}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3464}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 3844}
+      Script: {instanceID: 3846}
     - Class: 114
-      Script: {instanceID: 3990}
+      Script: {instanceID: 3992}
     - Class: 114
-      Script: {instanceID: 4292}
+      Script: {instanceID: 4294}
     - Class: 114
-      Script: {instanceID: 17204}
+      Script: {instanceID: 16920}
+    - Class: 114
+      Script: {instanceID: 16922}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -435,6 +434,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: a38774175f9a0845e718fc697a22ea02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyGeoSpatial
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -881,11 +886,17 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: a38774175f9a0845e718fc697a22ea02
+      Hash: 22c9ae924cdec6315786c520e1a5cdf5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MyGeoSpatial
+    className: SampleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 3829b264cd2a929333fb1714bb333fc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AR_Fukuoka
+    className: VpsInitializer
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/ar_sample_android.apk
+  - Assets/Scenes/ARSample2.unity
+  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/ar_sample2_android.apk

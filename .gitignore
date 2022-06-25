@@ -61,4 +61,5 @@ crashlytics-build.properties
 
 # MyIgnore
 ARLocationSharing/Temp/UnityLockfile
+GeospatialSample/Temp/UnityLockfile
 *.so

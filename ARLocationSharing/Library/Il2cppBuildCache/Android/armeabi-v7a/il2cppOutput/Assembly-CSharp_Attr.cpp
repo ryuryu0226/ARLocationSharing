@@ -377,6 +377,24 @@ static void MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttribu
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void VpsInitializer_tF90B64868562B7A4C54A3A9CB7F1946B11E13133_CustomAttributesCacheGenerator_EarthManager(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB * tmp = (HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB *)cache->attributes[0];
+		HeaderAttribute__ctor_m601319E0BCE8C44A9E79B2C0ABAAD0FEF46A9F1E(tmp, il2cpp_codegen_string_new_wrapper("\x41\x52\x20\x43\x6F\x6D\x70\x6F\x6E\x65\x6E\x74\x73"), NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void VpsInitializer_tF90B64868562B7A4C54A3A9CB7F1946B11E13133_CustomAttributesCacheGenerator_ARCoreExtensions(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C_CustomAttributesCacheGenerator_SessionOrigin(CustomAttributesCache* cache)
 {
 	{
@@ -406,12 +424,14 @@ static void U3CU3Ec_t5B0BB4CFA8D219D09B10E20DB741FB7AE622B342_CustomAttributesCa
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[7] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[9] = 
 {
 	U3CU3Ec__DisplayClass44_0_t38D6B8575059B49A8EA27C9B42674AD47664C694_CustomAttributesCacheGenerator,
 	U3CU3Ec_t5B0BB4CFA8D219D09B10E20DB741FB7AE622B342_CustomAttributesCacheGenerator,
 	MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttributesCacheGenerator_EarthManager,
 	MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttributesCacheGenerator_infoText,
+	VpsInitializer_tF90B64868562B7A4C54A3A9CB7F1946B11E13133_CustomAttributesCacheGenerator_EarthManager,
+	VpsInitializer_tF90B64868562B7A4C54A3A9CB7F1946B11E13133_CustomAttributesCacheGenerator_ARCoreExtensions,
 	GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C_CustomAttributesCacheGenerator_SessionOrigin,
 	GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C_CustomAttributesCacheGenerator_GeospatialPrefab,
 	AssemblyU2DCSharp_CustomAttributesCacheGenerator,
