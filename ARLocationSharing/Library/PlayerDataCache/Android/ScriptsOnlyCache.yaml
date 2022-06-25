@@ -1,8 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController
-    - Google.XR.ARCoreExtensions.Samples.Geospatial.SafeAreaScaler
+    - MyGeoSpatial
     Google.XR.ARCoreExtensions.dll:
     - Google.XR.ARCoreExtensions.ARCoreExtensions
     - Google.XR.ARCoreExtensions.ARCoreExtensionsConfig
@@ -15,7 +14,6 @@ ScriptsOnlyBuild:
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
-    - UnityEngine.XR.ARFoundation.ARAnchorManager
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
@@ -38,15 +36,12 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
-    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Samples/ARCore Extensions/1.31.0/Geospatial Sample/Scenes/Geospatial.unity:
+    Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -65,6 +60,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -72,47 +71,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1544}
     - Class: 114
-      Script: {instanceID: 1682}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 1730}
+      Script: {instanceID: 2196}
     - Class: 114
-      Script: {instanceID: 2238}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2632}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2724}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2904}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 3012}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3188}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 3306}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 3510}
+      Script: {instanceID: 3844}
     - Class: 114
-      Script: {instanceID: 3514}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 3518}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 3520}
-    - Class: 114
-      Script: {instanceID: 3664}
-    - Class: 114
-      Script: {instanceID: 3896}
-    - Class: 114
-      Script: {instanceID: 4042}
-    - Class: 114
-      Script: {instanceID: 4348}
-    - Class: 114
-      Script: {instanceID: 4812}
+      Script: {instanceID: 17204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,8 +109,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -892,7 +879,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a38774175f9a0845e718fc697a22ea02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyGeoSpatial
   platform: 13
   scenePathNames:
-  - Assets/Samples/ARCore Extensions/1.31.0/Geospatial Sample/Scenes/Geospatial.unity
-  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/geospatial_sample_android.apk
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/ar_sample_android.apk

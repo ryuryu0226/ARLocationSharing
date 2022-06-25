@@ -24,6 +24,8 @@ struct DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B;
 struct HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB;
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
 struct RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80;
+// UnityEngine.SerializeField
+struct SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25;
 // System.String
 struct String_t;
 
@@ -246,6 +248,15 @@ public:
 };
 
 
+// UnityEngine.SerializeField
+struct SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+
+public:
+};
+
+
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5 
 {
@@ -332,6 +343,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimeCompatibilityAttribut
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550 (DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B * __this, int32_t ___modes0, const RuntimeMethod* method);
 // System.Void UnityEngine.HeaderAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeaderAttribute__ctor_m601319E0BCE8C44A9E79B2C0ABAAD0FEF46A9F1E (HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB * __this, String_t* ___header0, const RuntimeMethod* method);
+// System.Void UnityEngine.SerializeField::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3 (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35 (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * __this, const RuntimeMethod* method);
 static void AssemblyU2DCSharp_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -348,6 +361,20 @@ static void AssemblyU2DCSharp_CustomAttributesCacheGenerator(CustomAttributesCac
 	{
 		DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B * tmp = (DebuggableAttribute_tA8054EBD0FC7511695D494B690B5771658E3191B *)cache->attributes[2];
 		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 263LL, NULL);
+	}
+}
+static void MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttributesCacheGenerator_EarthManager(CustomAttributesCache* cache)
+{
+	{
+		HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB * tmp = (HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB *)cache->attributes[0];
+		HeaderAttribute__ctor_m601319E0BCE8C44A9E79B2C0ABAAD0FEF46A9F1E(tmp, il2cpp_codegen_string_new_wrapper("\x41\x52\x20\x43\x6F\x6D\x70\x6F\x6E\x65\x6E\x74\x73"), NULL);
+	}
+}
+static void MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttributesCacheGenerator_infoText(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C_CustomAttributesCacheGenerator_SessionOrigin(CustomAttributesCache* cache)
@@ -379,10 +406,12 @@ static void U3CU3Ec_t5B0BB4CFA8D219D09B10E20DB741FB7AE622B342_CustomAttributesCa
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[5] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[7] = 
 {
 	U3CU3Ec__DisplayClass44_0_t38D6B8575059B49A8EA27C9B42674AD47664C694_CustomAttributesCacheGenerator,
 	U3CU3Ec_t5B0BB4CFA8D219D09B10E20DB741FB7AE622B342_CustomAttributesCacheGenerator,
+	MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttributesCacheGenerator_EarthManager,
+	MyGeoSpatial_tD6E98C53C4766E545ADA2EB91C787BD745AD1DA2_CustomAttributesCacheGenerator_infoText,
 	GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C_CustomAttributesCacheGenerator_SessionOrigin,
 	GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C_CustomAttributesCacheGenerator_GeospatialPrefab,
 	AssemblyU2DCSharp_CustomAttributesCacheGenerator,
