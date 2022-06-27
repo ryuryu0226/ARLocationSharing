@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\work_space\\org\\ARLocationSharing\\ARLocationSharing\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\neong\\.gradle\\caches\\transforms-2\\files-2.1\\9dfbba0d19c6d78f6f3b80bcbabd668b\\com.google.android.gms.play-services-base-16.0.1\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,352,539,670,778,983,1114,1260,1391,1616,1724,1904,2039,2242,2424,2514,2605",
+                        "endColumns": "106,186,130,107,204,130,145,130,224,107,179,134,202,181,89,90,105",
+                        "endOffsets": "351,538,669,777,982,1113,1259,1390,1615,1723,1903,2038,2241,2423,2513,2604,2710"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "544,655,842,977,1089,1294,1429,1579,1935,2160,2272,2452,2591,2794,2980,3074,3169",
+                        "endColumns": "110,186,134,111,204,134,149,134,224,111,179,138,202,185,93,94,109",
+                        "endOffsets": "650,837,972,1084,1289,1424,1574,1709,2155,2267,2447,2586,2789,2975,3069,3164,3274"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\neong\\.gradle\\caches\\transforms-2\\files-2.1\\1511ad59871a773791b7c2f3d9fe8641\\arcore_client\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,293,405,523",
+                        "endColumns": "49,52,111,117,85",
+                        "endOffsets": "239,292,404,522,608"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,159,216,332,454",
+                        "endColumns": "53,56,115,121,89",
+                        "endOffsets": "154,211,327,449,539"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\neong\\.gradle\\caches\\transforms-2\\files-2.1\\de5dab19474f7bc055bdbb01a97fc143\\com.android.support.support-compat-26.1.0\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "3279",
+                        "endColumns": "100",
+                        "endOffsets": "3375"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\neong\\.gradle\\caches\\transforms-2\\files-2.1\\24740dd5859002307fe0385a67bc92b9\\com.google.android.gms.play-services-basement-16.0.1\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "220",
+                        "endOffsets": "467"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1714",
+                        "endColumns": "220",
+                        "endOffsets": "1930"
+                    }
+                }
+            ]
+        }
+    ]
+}

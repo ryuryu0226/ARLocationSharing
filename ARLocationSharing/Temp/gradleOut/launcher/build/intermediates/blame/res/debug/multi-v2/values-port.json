@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\work_space\\org\\ARLocationSharing\\ARLocationSharing\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\neong\\.gradle\\caches\\transforms-2\\files-2.1\\de5dab19474f7bc055bdbb01a97fc143\\com.android.support.support-compat-26.1.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

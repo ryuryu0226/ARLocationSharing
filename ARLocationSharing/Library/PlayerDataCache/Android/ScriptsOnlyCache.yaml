@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AR_Fukuoka.VpsInitializer
+    - NetworkAppCall
     - SampleScript
     Google.XR.ARCoreExtensions.dll:
     - Google.XR.ARCoreExtensions.ARCoreExtensions
@@ -68,35 +69,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1648}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 1728}
     - Class: 114
-      Script: {instanceID: 2562}
+      Script: {instanceID: 2750}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2784}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3732}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3738}
     - Class: 114
-      Script: {instanceID: 3846}
+      Script: {instanceID: 3744}
     - Class: 114
-      Script: {instanceID: 3992}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4294}
+      Script: {instanceID: 4258}
     - Class: 114
-      Script: {instanceID: 16920}
+      Script: {instanceID: 4310}
     - Class: 114
-      Script: {instanceID: 16922}
+      Script: {instanceID: 4394}
+    - Class: 114
+      Script: {instanceID: 4650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -116,6 +119,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -256,12 +265,6 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -376,6 +379,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MagicOnionLoad
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -424,6 +433,12 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
+      Hash: 22c9ae924cdec6315786c520e1a5cdf5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleScript
+  - hash:
+      serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -454,12 +469,6 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ToggleGroup
-  - hash:
-      serializedVersion: 2
       Hash: 16dacd04869a876ea4bea0d1d2e77e34
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -470,6 +479,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
   - hash:
       serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
@@ -628,6 +643,12 @@ ScriptsOnlyBuild:
     className: ARPlaneManager
   - hash:
       serializedVersion: 2
+      Hash: 3829b264cd2a929333fb1714bb333fc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AR_Fukuoka
+    className: VpsInitializer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -668,6 +689,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARCore.dll
     namespaceName: UnityEngine.XR.ARCore
     className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8f3cdfb66f8f3e1109120e500c23631b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkAppCall
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -814,6 +841,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: MessagePack.dll
+    namespaceName: MessagePack.Unity.Editor
+    className: MessagePackWindow
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -826,16 +859,16 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
-    assemblyName: Unity.XR.ARFoundation.dll
-    namespaceName: UnityEngine.XR.ARFoundation
-    className: ARAnchor
-  - hash:
-      serializedVersion: 2
       Hash: d39905ff8fda75afed4d688761c322e1
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchor
   - hash:
       serializedVersion: 2
       Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
@@ -862,6 +895,12 @@ ScriptsOnlyBuild:
     className: ARFaceMeshVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MagicOnion.Unity.dll
+    namespaceName: MagicOnion.Unity
+    className: GrpcChannelProviderHost
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -884,19 +923,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 22c9ae924cdec6315786c520e1a5cdf5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SampleScript
-  - hash:
-      serializedVersion: 2
-      Hash: 3829b264cd2a929333fb1714bb333fc8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: AR_Fukuoka
-    className: VpsInitializer
   platform: 13
   scenePathNames:
   - Assets/Scenes/ARSample2.unity
-  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/ARLocationSharing/Builds/ar_sample2_android.apk
+  playerPath: C:/work_space/org/testARLSnetwork.apk
