@@ -69,4 +69,4 @@ ARLocationSharing/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_
 ARLocationSharing/Assets/Plugins/Grpc.Core/runtimes/ios/libgrpc.a
 
 # exception for visual studio .sln
-!ARLocationSharing/NetworkApp-Server/NetworkApp-Server.sln
+!NetworkApp-Server/NetworkApp-Server.sln

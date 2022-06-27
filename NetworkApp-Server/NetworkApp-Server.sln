@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkApp-Server", "NetworkApp-Server.csproj", "{6A173F52-4C04-4964-B486-1A942E0BB25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkApp-Shared", "..\NetworkApp-Shared\NetworkApp-Shared.csproj", "{00C3D259-AF74-4166-ADD7-F07FF547B078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A173F52-4C04-4964-B486-1A942E0BB25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A173F52-4C04-4964-B486-1A942E0BB25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A173F52-4C04-4964-B486-1A942E0BB25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A173F52-4C04-4964-B486-1A942E0BB25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C3D259-AF74-4166-ADD7-F07FF547B078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C3D259-AF74-4166-ADD7-F07FF547B078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C3D259-AF74-4166-ADD7-F07FF547B078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C3D259-AF74-4166-ADD7-F07FF547B078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD67A702-FEDA-44E6-A5C4-90FB2806B625}
+	EndGlobalSection
+EndGlobal
