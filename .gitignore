@@ -67,3 +67,6 @@ GeospatialSample/Temp/UnityLockfile
 # Ignore large files
 ARLocationSharing/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.2/data~/payload.tar.7z
 ARLocationSharing/Assets/Plugins/Grpc.Core/runtimes/ios/libgrpc.a
+
+# exception for visual studio .sln
+!ARLocationSharing/NetworkApp-Server/NetworkApp-Server.sln
