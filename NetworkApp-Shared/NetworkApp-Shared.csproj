@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>NetworkApp_Shared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MagicOnion.MSBuild.Tasks" Version="4.3.1" />
+    <PackageReference Include="MagicOnion.Shared" Version="4.3.1" />
+    <PackageReference Include="MessagePack.MSBuild.Tasks" Version="2.1.194">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MessagePack.UnityShims" Version="2.1.194" />
+  </ItemGroup>
+
+  <!-- =========================== 以下を追加 =========================== -->
+  <ItemGroup>
+    <Compile Include="..\ARLocationSharing\Assets\Scripts\MagicOnion\Server\**\*.cs" Link="Server/%(RecursiveDir)/%(FileName)%(Extension)" />
+  </ItemGroup>
+
+  <Target Name="GenerateMessagePack" AfterTargets="Compile">
+    <MessagePackGenerator input="$(ProjectPath)" output="..\ARLocationSharing\Assets\Scripts\MagicOnion\Client\Generated\MessagePack.Generated.cs" />
+  </Target>
+  <Target Name="GenerateMagicOnion" AfterTargets="Compile">
+    <MagicOnionGenerator Input="$(ProjectPath)" Output="..\ARLocationSharing\Assets\Scripts\MagicOnion\Client\Generated\MagicOnion.Generated.cs" />
+  </Target>
+  <!-- ================================================================== -->
+  
+</Project>

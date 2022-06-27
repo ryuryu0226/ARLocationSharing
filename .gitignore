@@ -70,3 +70,7 @@ ARLocationSharing/Assets/Plugins/Grpc.Core/runtimes/ios/libgrpc.a
 
 # exception for visual studio .sln
 !NetworkApp-Server/NetworkApp-Server.sln
+!NetworkApp-Server/NetworkApp-Server.csproj
+!NetworkApp-Shared/NetworkApp-Shared.csproj
+
+
