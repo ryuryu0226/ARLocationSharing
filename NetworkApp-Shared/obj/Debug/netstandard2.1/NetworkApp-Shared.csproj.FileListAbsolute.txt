@@ -1,7 +1,6 @@
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\bin\Debug\netstandard2.1\NetworkApp-Shared.deps.json
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\bin\Debug\netstandard2.1\NetworkApp-Shared.dll
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\bin\Debug\netstandard2.1\NetworkApp-Shared.pdb
-C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.csproj.AssemblyReference.cache
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.AssemblyInfoInputs.cache
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.AssemblyInfo.cs

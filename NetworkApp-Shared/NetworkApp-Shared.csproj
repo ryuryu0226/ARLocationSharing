@@ -17,14 +17,14 @@
 
   <!-- =========================== 以下を追加 =========================== -->
   <ItemGroup>
-    <Compile Include="..\ARLocationSharing\Assets\Scripts\MagicOnion\Server\**\*.cs" Link="Server/%(RecursiveDir)/%(FileName)%(Extension)" />
+    <Compile Include="..\GeospatialSample\Assets\Scripts\MagicOnion\Server\**\*.cs" Link="Server/%(RecursiveDir)/%(FileName)%(Extension)" />
   </ItemGroup>
 
   <Target Name="GenerateMessagePack" AfterTargets="Compile">
-    <MessagePackGenerator input="$(ProjectPath)" output="..\ARLocationSharing\Assets\Scripts\MagicOnion\Client\Generated\MessagePack.Generated.cs" />
+    <MessagePackGenerator input="$(ProjectPath)" output="..\GeospatialSample\Assets\Scripts\MagicOnion\Client\Generated\MessagePack.Generated.cs" />
   </Target>
   <Target Name="GenerateMagicOnion" AfterTargets="Compile">
-    <MagicOnionGenerator Input="$(ProjectPath)" Output="..\ARLocationSharing\Assets\Scripts\MagicOnion\Client\Generated\MagicOnion.Generated.cs" />
+    <MagicOnionGenerator Input="$(ProjectPath)" Output="..\GeospatialSample\Assets\Scripts\MagicOnion\Client\Generated\MagicOnion.Generated.cs" />
   </Target>
   <!-- ================================================================== -->
   

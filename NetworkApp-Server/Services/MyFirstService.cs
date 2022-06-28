@@ -14,6 +14,7 @@ namespace NetworkAppServer.Services
         public async UnaryResult<int> SumAsync(int x, int y)
         {
             Console.WriteLine($"Received:{x}, {y}");
+            await Task.CompletedTask.ConfigureAwait(false);
             return x + y;
         }
     }
