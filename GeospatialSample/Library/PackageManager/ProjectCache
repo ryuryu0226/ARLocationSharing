@@ -1,7 +1,11 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_FilePath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Packages/manifest.json
+=======
+    m_FilePath: C:/work_space/org/ARLocationSharing/GeospatialSample/Packages/manifest.json
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
     m_FilePath: C:/work_space/org/ARLocationSharing/GeospatialSample/Packages/manifest.json
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -9,6 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       ticks: 637920404030000000
     m_Hash: 473410729
@@ -20,13 +25,24 @@ m_ProjectFiles:
   m_LockFileStatus:
     m_FilePath: C:/work_space/org/ARLocationSharing/GeospatialSample/Packages/packages-lock.json
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
+=======
+      ticks: 637919557081458128
+    m_Hash: 1745402506
+  m_LockFileStatus:
+    m_FilePath: C:/work_space/org/ARLocationSharing/GeospatialSample/Packages/packages-lock.json
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 637920404030000000
     m_Hash: 455058460
+=======
+      ticks: 637919557081498121
+    m_Hash: 326130257
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       ticks: 637919557081498121
     m_Hash: 326130257
@@ -42,7 +58,11 @@ m_PackageAssets:
       version: 1.31.0
       source: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.google.ar.core.arfoundation.extensions@b9496c2059
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.google.ar.core.arfoundation.extensions@b9496c2059
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.google.ar.core.arfoundation.extensions@b9496c2059
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -130,7 +150,11 @@ m_PackageAssets:
       version: 1.11.2
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.collab-proxy@1.11.2
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.collab-proxy@1.11.2
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.collab-proxy@1.11.2
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -289,7 +313,11 @@ m_PackageAssets:
       version: 2.0.7
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.ide.rider@2.0.7
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ide.rider@2.0.7
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ide.rider@2.0.7
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -412,7 +440,11 @@ m_PackageAssets:
       version: 2.0.11
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.ide.visualstudio@2.0.11
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -511,7 +543,11 @@ m_PackageAssets:
       version: 1.2.4
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.ide.vscode@1.2.4
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ide.vscode@1.2.4
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ide.vscode@1.2.4
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -588,7 +624,11 @@ m_PackageAssets:
       version: 1.1.29
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.test-framework@1.1.29
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.test-framework@1.1.29
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.test-framework@1.1.29
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -693,7 +733,11 @@ m_PackageAssets:
       version: 3.0.6
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.textmeshpro@3.0.6
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.textmeshpro@3.0.6
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.textmeshpro@3.0.6
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -863,7 +907,11 @@ m_PackageAssets:
       version: 1.4.8
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.timeline@1.4.8
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.timeline@1.4.8
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.timeline@1.4.8
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -1133,7 +1181,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.ugui@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ugui@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ugui@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -1200,7 +1252,11 @@ m_PackageAssets:
       version: 4.1.10
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.xr.arcore@4.1.10
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arcore@4.1.10
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arcore@4.1.10
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -1456,7 +1512,11 @@ m_PackageAssets:
       version: 4.1.10
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.xr.arfoundation@4.1.10
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arfoundation@4.1.10
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arfoundation@4.1.10
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -1711,7 +1771,11 @@ m_PackageAssets:
       version: 4.1.10
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.xr.arkit@4.1.10
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arkit@4.1.10
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arkit@4.1.10
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -1984,7 +2048,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.ai@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.ai@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.ai@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2036,7 +2104,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.androidjni@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2088,7 +2160,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.animation@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.animation@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.animation@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2140,7 +2216,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2192,7 +2272,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.audio@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.audio@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.audio@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2244,7 +2328,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.cloth@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.cloth@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.cloth@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2300,7 +2388,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.director@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.director@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.director@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2360,7 +2452,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2413,7 +2509,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.imgui@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.imgui@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.imgui@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2465,7 +2565,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2517,7 +2621,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2569,7 +2677,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.physics@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.physics@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.physics@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2621,7 +2733,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.physics2d@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.physics2d@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2673,7 +2789,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.screencapture@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.screencapture@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2729,7 +2849,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.terrain@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.terrain@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.terrain@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2781,7 +2905,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2841,7 +2969,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.tilemap@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.tilemap@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2897,7 +3029,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.ui@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.ui@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.ui@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -2949,7 +3085,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.uielements@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.uielements@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.uielements@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3017,7 +3157,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.umbra@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.umbra@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.umbra@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3069,7 +3213,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3129,7 +3277,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3181,7 +3333,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3241,7 +3397,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3301,7 +3461,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3361,7 +3525,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3437,7 +3605,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.vehicles@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.vehicles@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3493,7 +3665,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.video@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.video@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.video@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3557,7 +3733,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.vr@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.vr@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.vr@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3623,7 +3803,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.wind@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.wind@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.wind@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3675,7 +3859,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.xr@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.xr@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.xr@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3739,7 +3927,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.subsystems@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.subsystems@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3795,7 +3987,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3858,7 +4054,11 @@ m_PackageAssets:
       version: 1.0.0
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.editorcoroutines@1.0.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.editorcoroutines@1.0.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -3926,7 +4126,11 @@ m_PackageAssets:
       version: 4.1.10
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.xr.arsubsystems@4.1.10
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arsubsystems@4.1.10
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.arsubsystems@4.1.10
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -4076,7 +4280,11 @@ m_PackageAssets:
       version: 4.0.1
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.xr.management@4.0.1
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.management@4.0.1
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.management@4.0.1
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -4378,7 +4586,11 @@ m_PackageAssets:
       version: 1.0.6
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.ext.nunit@1.0.6
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ext.nunit@1.0.6
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.ext.nunit@1.0.6
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -4447,7 +4659,11 @@ m_PackageAssets:
       version: 2.1.8
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.8
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -4522,7 +4738,11 @@ m_PackageAssets:
       version: 1.1.0
       source: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       resolvedPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Library/PackageCache/com.unity.subsystemregistration@1.1.0
+=======
+      resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
       resolvedPath: C:\work_space\org\ARLocationSharing\GeospatialSample\Library\PackageCache\com.unity.subsystemregistration@1.1.0
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
@@ -4582,7 +4802,11 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 m_ProjectPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/Packages
+=======
+m_ProjectPath: C:/work_space/org/ARLocationSharing/GeospatialSample/Packages
+>>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
 =======
 m_ProjectPath: C:/work_space/org/ARLocationSharing/GeospatialSample/Packages
 >>>>>>> 70cbda8d8cbe44ecbbfec8956c4d2481e27ef511
