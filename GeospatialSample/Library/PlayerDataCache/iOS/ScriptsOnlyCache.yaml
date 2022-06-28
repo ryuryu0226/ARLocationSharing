@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AR_Fukuoka.SampleScript
     - AR_Fukuoka.VpsInitializer
+    - DrawGoogleMap
+    - SampleScript
     Google.XR.ARCoreExtensions.dll:
     - Google.XR.ARCoreExtensions.ARCoreExtensions
     - Google.XR.ARCoreExtensions.ARCoreExtensionsConfig
@@ -38,9 +39,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Sample.unity:
+    Assets/Scenes/Sample.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -70,6 +72,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
+      Script: {instanceID: 1544}
+    - Class: 114
       Script: {instanceID: 1648}
     - Class: 114
       Script: {instanceID: 2558}
@@ -97,6 +101,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3986}
     - Class: 114
       Script: {instanceID: 4288}
+    - Class: 114
+      Script: {instanceID: 19238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -432,7 +438,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 22c9ae924cdec6315786c520e1a5cdf5
     assemblyName: Assembly-CSharp.dll
-    namespaceName: AR_Fukuoka
+    namespaceName: 
     className: SampleScript
   - hash:
       serializedVersion: 2
@@ -902,7 +908,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: b2d26b3ff747d1954a745df9999b8a05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawGoogleMap
   platform: 9
   scenePathNames:
-  - Assets/Sample.unity
-  playerPath: /Users/Manabe/GeospatialSample/build
+  - Assets/Scenes/Sample.unity
+  playerPath: /Users/takumi/Documents/Hackathon/ARLocationSharing/GeospatialSample/build/AR
