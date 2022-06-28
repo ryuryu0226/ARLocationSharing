@@ -7,3 +7,4 @@ C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\N
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.csproj.CoreCompileInputs.cache
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.dll
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.pdb
+C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.csproj.AssemblyReference.cache

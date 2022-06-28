@@ -32,5 +32,11 @@ public class NetworkAppCall : MonoBehaviour
         var result = await client.SumAsync(100, 23);
         Debug.Log($"Result: {result}");
         NetworkResultText.text = "server res: " + result.ToString();
+
+        var client2 = MagicOnionClient.Create<IMyFirstService>(channel);
+        Location loc = await client2.GetLocation("Friend 1");
+        Debug.Log($"Result: {loc.Latitude.ToString()} {loc.Longitude.ToString()}");
+        NetworkResultText.text = "name :" + loc.Username + "loc :" + loc.Latitude.ToString();
+
     }
 }
