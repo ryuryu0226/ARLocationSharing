@@ -3,7 +3,7 @@
     "NetworkApp-Server": {
       "commandName": "Project",
       "launchBrowser": false,
-      "applicationUrl": "http://0.0.0.0:5001",
+      "applicationUrl": "http://0.0.0.0:12345",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

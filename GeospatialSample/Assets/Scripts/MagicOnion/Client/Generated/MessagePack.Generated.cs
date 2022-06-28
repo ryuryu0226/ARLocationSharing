@@ -119,11 +119,12 @@ namespace MessagePack.Formatters.MyApp.Shared
             }
 
             IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(4);
+            writer.WriteArrayHeader(5);
             formatterResolver.GetFormatterWithVerify<string>().Serialize(ref writer, value.Username, options);
             writer.Write(value.Latitude);
             writer.Write(value.Longitude);
             writer.Write(value.Altitude);
+            writer.Write(value.Exist);
         }
 
         public global::MyApp.Shared.Location Deserialize(ref MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -140,6 +141,7 @@ namespace MessagePack.Formatters.MyApp.Shared
             var __Latitude__ = default(double);
             var __Longitude__ = default(double);
             var __Altitude__ = default(double);
+            var __Exist__ = default(bool);
 
             for (int i = 0; i < length; i++)
             {
@@ -159,6 +161,9 @@ namespace MessagePack.Formatters.MyApp.Shared
                     case 3:
                         __Altitude__ = reader.ReadDouble();
                         break;
+                    case 4:
+                        __Exist__ = reader.ReadBoolean();
+                        break;
                     default:
                         reader.Skip();
                         break;
@@ -170,6 +175,7 @@ namespace MessagePack.Formatters.MyApp.Shared
             ____result.Latitude = __Latitude__;
             ____result.Longitude = __Longitude__;
             ____result.Altitude = __Altitude__;
+            ____result.Exist = __Exist__;
             reader.Depth--;
             return ____result;
         }

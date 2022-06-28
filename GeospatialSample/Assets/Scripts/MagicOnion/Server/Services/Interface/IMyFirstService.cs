@@ -10,7 +10,11 @@ namespace MyApp.Shared
         // The return type must be `UnaryResult<T>`.
         UnaryResult<int> SumAsync(int x, int y);
 
-        UnaryResult<Location> GetLocation(string username);
+        // 中央サーバーから ユーザー名が username に一致するユーザーの位置情報を取得
+        UnaryResult<Location> GetLocation(string username); 
+
+        // 自身の位置情報を中央サーバーに送信
+        UnaryResult<bool> SendLocation(Location loc);
     }
 
     [MessagePackObject]
@@ -20,5 +24,6 @@ namespace MyApp.Shared
         [Key(1)] public double Latitude { get; set; }
         [Key(2)] public double Longitude { get; set; }
         [Key(3)] public double Altitude { get; set; }
+        [Key(4)] public bool Exist { get; set; }
     }
 }

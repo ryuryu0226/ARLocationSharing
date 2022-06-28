@@ -34,3 +34,9 @@ C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Debug\netcoreapp3.1\Ne
 C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Debug\netcoreapp3.1\NetworkApp-Server.dll
 C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Debug\netcoreapp3.1\NetworkApp-Server.pdb
 C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Debug\netcoreapp3.1\NetworkApp-Server.genruntimeconfig.cache
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\bin\Debug\netcoreapp3.1\out\web.config
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\bin\Debug\netcoreapp3.1\out\appsettings.Development.json
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\bin\Debug\netcoreapp3.1\out\appsettings.json
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\bin\Debug\netcoreapp3.1\out\NetworkApp-Server.deps.json
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\bin\Debug\netcoreapp3.1\out\NetworkApp-Server.runtimeconfig.json
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\bin\Debug\netcoreapp3.1\out\NetworkApp-Shared.deps.json

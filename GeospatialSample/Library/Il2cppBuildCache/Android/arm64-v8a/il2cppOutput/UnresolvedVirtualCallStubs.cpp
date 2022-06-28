@@ -72,14 +72,14 @@ struct SortedSet_1_tCCF0396A8917B24BCFCE984A5E4310306E28A536;
 struct Stack_1_tEFE23E5DC2544226D164C051CC48D4B045BE1030;
 // System.Collections.Generic.Stack`1<System.Object>
 struct Stack_1_t92AC5F573A3C00899B24B775A71B4327D588E981;
-// System.Threading.Tasks.Task`1<MagicOnion.Client.IResponseContext`1<System.Int32>>
-struct Task_1_t43A9F6A595FF98C76FC91378F6868E9B18378610;
+// System.Threading.Tasks.Task`1<MagicOnion.Client.IResponseContext`1<System.Boolean>>
+struct Task_1_t3F14B7BD5E80036C960A35E74DABFB6C728A265B;
 // System.Threading.Tasks.Task`1<MagicOnion.Client.IResponseContext`1<MyApp.Shared.Location>>
 struct Task_1_tCDC897A6EAE115D911E15EA667B65F783643A575;
 // System.Threading.Tasks.Task`1<MagicOnion.Client.IResponseContext`1<System.Object>>
 struct Task_1_t3C87F5EDA149076F173ED0BD2D467AC511F9CE1D;
-// System.Threading.Tasks.Task`1<System.Int32>
-struct Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725;
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849;
 // System.Threading.Tasks.Task`1<MyApp.Shared.Location>
 struct Task_1_t7BBF94B69ABE3A9A589AA7AFE1EA90FEADC6D77E;
 // System.Threading.Tasks.Task`1<System.Object>
@@ -1133,21 +1133,21 @@ struct ReadOnlyMemory_1_tAAA9CB78753D364C1C68F98E1112328AEB5C264A_marshaled_com
 };
 #endif
 
-// MagicOnion.UnaryResult`1<System.Int32>
-struct UnaryResult_1_t3AAE1F45CCC6267BBF31E3B4C2A93182C6EA3764 
+// MagicOnion.UnaryResult`1<System.Boolean>
+struct UnaryResult_1_tA607DF5B3DFB0B0AEC50F5477E9485A6A9C4668D 
 {
 public:
 	// System.Boolean MagicOnion.UnaryResult`1::hasRawValue
 	bool ___hasRawValue_0;
 	// TResponse MagicOnion.UnaryResult`1::rawValue
-	int32_t ___rawValue_1;
+	bool ___rawValue_1;
 	// System.Threading.Tasks.Task`1<TResponse> MagicOnion.UnaryResult`1::rawTaskValue
-	Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 * ___rawTaskValue_2;
+	Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849 * ___rawTaskValue_2;
 	// System.Threading.Tasks.Task`1<MagicOnion.Client.IResponseContext`1<TResponse>> MagicOnion.UnaryResult`1::response
-	Task_1_t43A9F6A595FF98C76FC91378F6868E9B18378610 * ___response_3;
+	Task_1_t3F14B7BD5E80036C960A35E74DABFB6C728A265B * ___response_3;
 
 public:
-	inline static int32_t get_offset_of_hasRawValue_0() { return static_cast<int32_t>(offsetof(UnaryResult_1_t3AAE1F45CCC6267BBF31E3B4C2A93182C6EA3764, ___hasRawValue_0)); }
+	inline static int32_t get_offset_of_hasRawValue_0() { return static_cast<int32_t>(offsetof(UnaryResult_1_tA607DF5B3DFB0B0AEC50F5477E9485A6A9C4668D, ___hasRawValue_0)); }
 	inline bool get_hasRawValue_0() const { return ___hasRawValue_0; }
 	inline bool* get_address_of_hasRawValue_0() { return &___hasRawValue_0; }
 	inline void set_hasRawValue_0(bool value)
@@ -1155,27 +1155,27 @@ public:
 		___hasRawValue_0 = value;
 	}
 
-	inline static int32_t get_offset_of_rawValue_1() { return static_cast<int32_t>(offsetof(UnaryResult_1_t3AAE1F45CCC6267BBF31E3B4C2A93182C6EA3764, ___rawValue_1)); }
-	inline int32_t get_rawValue_1() const { return ___rawValue_1; }
-	inline int32_t* get_address_of_rawValue_1() { return &___rawValue_1; }
-	inline void set_rawValue_1(int32_t value)
+	inline static int32_t get_offset_of_rawValue_1() { return static_cast<int32_t>(offsetof(UnaryResult_1_tA607DF5B3DFB0B0AEC50F5477E9485A6A9C4668D, ___rawValue_1)); }
+	inline bool get_rawValue_1() const { return ___rawValue_1; }
+	inline bool* get_address_of_rawValue_1() { return &___rawValue_1; }
+	inline void set_rawValue_1(bool value)
 	{
 		___rawValue_1 = value;
 	}
 
-	inline static int32_t get_offset_of_rawTaskValue_2() { return static_cast<int32_t>(offsetof(UnaryResult_1_t3AAE1F45CCC6267BBF31E3B4C2A93182C6EA3764, ___rawTaskValue_2)); }
-	inline Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 * get_rawTaskValue_2() const { return ___rawTaskValue_2; }
-	inline Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 ** get_address_of_rawTaskValue_2() { return &___rawTaskValue_2; }
-	inline void set_rawTaskValue_2(Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725 * value)
+	inline static int32_t get_offset_of_rawTaskValue_2() { return static_cast<int32_t>(offsetof(UnaryResult_1_tA607DF5B3DFB0B0AEC50F5477E9485A6A9C4668D, ___rawTaskValue_2)); }
+	inline Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849 * get_rawTaskValue_2() const { return ___rawTaskValue_2; }
+	inline Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849 ** get_address_of_rawTaskValue_2() { return &___rawTaskValue_2; }
+	inline void set_rawTaskValue_2(Task_1_t9C1FE9F18F52F3409B9E970FA38801A443AE7849 * value)
 	{
 		___rawTaskValue_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___rawTaskValue_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_response_3() { return static_cast<int32_t>(offsetof(UnaryResult_1_t3AAE1F45CCC6267BBF31E3B4C2A93182C6EA3764, ___response_3)); }
-	inline Task_1_t43A9F6A595FF98C76FC91378F6868E9B18378610 * get_response_3() const { return ___response_3; }
-	inline Task_1_t43A9F6A595FF98C76FC91378F6868E9B18378610 ** get_address_of_response_3() { return &___response_3; }
-	inline void set_response_3(Task_1_t43A9F6A595FF98C76FC91378F6868E9B18378610 * value)
+	inline static int32_t get_offset_of_response_3() { return static_cast<int32_t>(offsetof(UnaryResult_1_tA607DF5B3DFB0B0AEC50F5477E9485A6A9C4668D, ___response_3)); }
+	inline Task_1_t3F14B7BD5E80036C960A35E74DABFB6C728A265B * get_response_3() const { return ___response_3; }
+	inline Task_1_t3F14B7BD5E80036C960A35E74DABFB6C728A265B ** get_address_of_response_3() { return &___response_3; }
+	inline void set_response_3(Task_1_t3F14B7BD5E80036C960A35E74DABFB6C728A265B * value)
 	{
 		___response_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___response_3), (void*)value);
@@ -13915,7 +13915,7 @@ static  TrackableChanges_1_t388C13B0BF202AE5F24D0BB3AE0D672AA355E1B1  Unresolved
 	il2cpp_codegen_no_return();
 }
 
-static  UnaryResult_1_t3AAE1F45CCC6267BBF31E3B4C2A93182C6EA3764  UnresolvedVirtualCall_121 (RuntimeObject * __this, int32_t ___Int321, int32_t ___Int322, const RuntimeMethod* method)
+static  UnaryResult_1_tA607DF5B3DFB0B0AEC50F5477E9485A6A9C4668D  UnresolvedVirtualCall_121 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();

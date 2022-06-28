@@ -70,3 +70,11 @@ C:/work_space/org/ARLocationSharing/NetworkApp-Server/obj/Release/netcoreapp3.1/
 /mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/obj/Release/netcoreapp3.1/NetworkApp-Server.dll
 /mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/obj/Release/netcoreapp3.1/NetworkApp-Server.pdb
 /mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/obj/Release/netcoreapp3.1/NetworkApp-Server.genruntimeconfig.cache
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.csproj.AssemblyReference.cache
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.AssemblyInfoInputs.cache
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.AssemblyInfo.cs
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.csproj.CoreCompileInputs.cache
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.MvcApplicationPartsAssemblyInfo.cache
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.dll
+C:\work_space\org\ARLocationSharing\NetworkApp-Server\obj\Release\netcoreapp3.1\NetworkApp-Server.pdb

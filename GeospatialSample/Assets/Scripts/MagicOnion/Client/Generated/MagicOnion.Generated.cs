@@ -128,6 +128,8 @@ namespace MyApp.Shared {
         static readonly Func<RequestContext, ResponseContext> SumAsyncDelegate;
         static readonly Method<byte[], byte[]> GetLocationMethod;
         static readonly Func<RequestContext, ResponseContext> GetLocationDelegate;
+        static readonly Method<byte[], byte[]> SendLocationMethod;
+        static readonly Func<RequestContext, ResponseContext> SendLocationDelegate;
 
         static MyFirstServiceClient()
         {
@@ -135,6 +137,8 @@ namespace MyApp.Shared {
             SumAsyncDelegate = _SumAsync;
             GetLocationMethod = new Method<byte[], byte[]>(MethodType.Unary, "IMyFirstService", "GetLocation", MagicOnionMarshallers.ThroughMarshaller, MagicOnionMarshallers.ThroughMarshaller);
             GetLocationDelegate = _GetLocation;
+            SendLocationMethod = new Method<byte[], byte[]>(MethodType.Unary, "IMyFirstService", "SendLocation", MagicOnionMarshallers.ThroughMarshaller, MagicOnionMarshallers.ThroughMarshaller);
+            SendLocationDelegate = _SendLocation;
         }
 
         MyFirstServiceClient()
@@ -199,6 +203,15 @@ namespace MyApp.Shared {
         public global::MagicOnion.UnaryResult<global::MyApp.Shared.Location> GetLocation(string username)
         {
             return InvokeAsync<string, global::MyApp.Shared.Location>("IMyFirstService/GetLocation", username, GetLocationDelegate);
+        }
+        static ResponseContext _SendLocation(RequestContext __context)
+        {
+            return CreateResponseContext<global::MyApp.Shared.Location, bool>(__context, SendLocationMethod);
+        }
+
+        public global::MagicOnion.UnaryResult<bool> SendLocation(global::MyApp.Shared.Location loc)
+        {
+            return InvokeAsync<global::MyApp.Shared.Location, bool>("IMyFirstService/SendLocation", loc, SendLocationDelegate);
         }
     }
 }
