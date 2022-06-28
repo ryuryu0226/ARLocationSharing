@@ -70,6 +70,9 @@ ARLocationSharing/Assets/Plugins/Grpc.Core/runtimes/ios/libgrpc.a
 GeospatialSample/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.2/data~/payload.tar.7z
 GeospatialSample/Assets/Plugins/Grpc.Core/runtimes/ios/libgrpc.a
 
+# Ignore release build of NetworkApp-Server
+NetworkApp-Server/out/
+
 # exception for visual studio .sln
 !NetworkApp-Server/NetworkApp-Server.sln
 !NetworkApp-Server/NetworkApp-Server.csproj

@@ -518,6 +518,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral31D77236056880C0D3C936B020E57CFE072FD559
 IL2CPP_EXTERN_C String_t* _stringLiteral3A80DBD535E7AFB2B86F791A732EBEEE4BCF7CDB;
 IL2CPP_EXTERN_C String_t* _stringLiteral402969FEF140B759AA2E21468D1A944100BDBBF1;
 IL2CPP_EXTERN_C String_t* _stringLiteral499C11739398ED0917DF25C3E77DFEE2A90BD677;
+IL2CPP_EXTERN_C String_t* _stringLiteral4C60E532EB7C1614B2A9A250E36804D6C6367B61;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E220F394CF0E90F7FEF038F482846BFBB93ED64;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E287435FD397C47BE968855D25241480B97C5C9;
 IL2CPP_EXTERN_C String_t* _stringLiteral54BCB41819B377D2A7188BB6BDE84E1CE17A361D;
@@ -542,7 +543,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB3485A54065E6F4E66AFF0546DB80DF7DA4A5284
 IL2CPP_EXTERN_C String_t* _stringLiteralB7CA9DC3E5A221DFCC0483888D319D118E5CEF90;
 IL2CPP_EXTERN_C String_t* _stringLiteralBA97DB5D365444C5E6EF88EF63073328B97B1146;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC7FFF74C9144CC4E77C56C5F9B4FDBC4516816D;
-IL2CPP_EXTERN_C String_t* _stringLiteralC16FCACA492185126FD91022DFAA751EC4A781F1;
 IL2CPP_EXTERN_C String_t* _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391;
 IL2CPP_EXTERN_C String_t* _stringLiteralCDD0E29C4A5251B9843B15E7DBD03F1411828478;
 IL2CPP_EXTERN_C String_t* _stringLiteralD7A905249C0409DB8B563D30BAE889395AFBDB30;
@@ -13832,11 +13832,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallTestU3Ed__2_MoveNext_mB33503E302F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral194BDE03A26A43CD4F5987812023007BABEF0010);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2DA4E6AF321B57192DCBC378F661515FD3B17FC3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C60E532EB7C1614B2A9A250E36804D6C6367B61);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54BCB41819B377D2A7188BB6BDE84E1CE17A361D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral555CE0AE6419DD90858CA5F23102ADB3CC527CF4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral97204ED8D0AF0DA6C1B5C926D38775BF1CFB6D80);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral99127137179C374B76B39285D20763240B8B3BBD);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC16FCACA492185126FD91022DFAA751EC4A781F1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD916FAB801CA908AC3629398FDEEAE4721FC1574);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -13893,10 +13893,10 @@ IL_001b:
 			Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_5 = L_4->get_NetworkResultText_4();
 			NullCheck(L_5);
 			VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_5, _stringLiteral99127137179C374B76B39285D20763240B8B3BBD);
-			// string host = "192.168.32.237";
-			V_2 = _stringLiteralC16FCACA492185126FD91022DFAA751EC4A781F1;
-			// int port = 5001;
-			V_3 = ((int32_t)5001);
+			// string host = "160.251.18.95";
+			V_2 = _stringLiteral4C60E532EB7C1614B2A9A250E36804D6C6367B61;
+			// int port = 12345;
+			V_3 = ((int32_t)12345);
 			// var channel = new Channel(host, port, ChannelCredentials.Insecure);
 			String_t* L_6 = V_2;
 			int32_t L_7 = V_3;

@@ -1,0 +1,16 @@
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/NetworkApp-Shared.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/NetworkApp-Shared.pdb
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/Grpc.Core.Api.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/MagicOnion.Abstractions.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/MagicOnion.Shared.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/MessagePack.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/MessagePack.Annotations.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/MessagePack.UnityShims.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/Microsoft.Bcl.AsyncInterfaces.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/System.Buffers.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/System.Collections.Immutable.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/System.Memory.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/System.Numerics.Vectors.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/System.Runtime.CompilerServices.Unsafe.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/System.Threading.Tasks.Extensions.dll
+/mnt/c/work_space/org/ARLocationSharing/NetworkApp-Server/out/NetworkApp-Shared.deps.json
