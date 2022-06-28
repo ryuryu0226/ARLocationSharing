@@ -72,6 +72,7 @@ GeospatialSample/Assets/Plugins/Grpc.Core/runtimes/ios/libgrpc.a
 
 # Ignore release build of NetworkApp-Server
 NetworkApp-Server/out/
+NetworkApp-Shared/bin/Release/
 
 # exception for visual studio .sln
 !NetworkApp-Server/NetworkApp-Server.sln
