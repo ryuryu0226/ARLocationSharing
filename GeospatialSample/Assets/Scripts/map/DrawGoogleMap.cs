@@ -26,7 +26,6 @@ public class DrawGoogleMap : MonoBehaviour {
         currentTime += Time.deltaTime;
         if(currentTime > span)
         {
-            Debug.Log("map");
             currentTime = 0f;
             MapDisplay(SampleScript.mylat, SampleScript.mylon);
         }
@@ -58,8 +57,6 @@ public class DrawGoogleMap : MonoBehaviour {
     IEnumerator Download(string url, Action<Texture2D> callback)
     {
         var www = new WWW(url);
-        Debug.Log(url);
-        Debug.Log("header" + www.texture);
         yield return www; // Wait for download to complete
 
         callback(www.texture);

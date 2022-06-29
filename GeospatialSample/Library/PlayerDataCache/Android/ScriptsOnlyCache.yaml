@@ -309,7 +309,7 @@ ScriptsOnlyBuild:
     className: ARCameraManager
   - hash:
       serializedVersion: 2
-      Hash: b2d26b3ff747d1954a745df9999b8a05
+      Hash: 109381aea06223d6a3df9e1074e4948e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DrawGoogleMap
@@ -441,7 +441,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 51dacceb515e526d50ae3c0be7c3f139
+      Hash: 4c379ef77b285ceb59e501438c391df0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleScript

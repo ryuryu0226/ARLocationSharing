@@ -167,8 +167,8 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] =
 };
 static const int32_t s_InvokerIndices[47] = 
 {
-	1667,
-	1818,
+	1666,
+	1817,
 	3965,
 	5597,
 	4500,
@@ -180,12 +180,12 @@ static const int32_t s_InvokerIndices[47] =
 	4518,
 	4518,
 	4518,
-	1849,
-	1849,
+	1848,
+	1848,
 	980,
-	1774,
-	1476,
-	1476,
+	1773,
+	1475,
+	1475,
 	5553,
 	5553,
 	5553,
@@ -212,7 +212,7 @@ static const int32_t s_InvokerIndices[47] =
 	3912,
 	2395,
 	5597,
-	1564,
+	1563,
 	4518,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_TextRenderingModule_AttributeGenerators[];

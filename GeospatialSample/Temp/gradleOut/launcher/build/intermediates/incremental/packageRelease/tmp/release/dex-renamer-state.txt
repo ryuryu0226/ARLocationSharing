@@ -1,4 +1,0 @@
-#Wed Jun 29 22:11:14 JST 2022
-base.0=D\:\\Uramune_Developing\\UnityProject\\Project\\ARLocationSharing\\GeospatialSample\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
