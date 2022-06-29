@@ -96,23 +96,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 3742}
+      Script: {instanceID: 3744}
     - Class: 114
-      Script: {instanceID: 3748}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4164}
+      Script: {instanceID: 4166}
     - Class: 114
-      Script: {instanceID: 4266}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4322}
+      Script: {instanceID: 4324}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4672}
     - Class: 114
-      Script: {instanceID: 4934}
+      Script: {instanceID: 4936}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -165,11 +165,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3192}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 3518}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 17550}
+      Script: {instanceID: 3520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -487,6 +487,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: e72572f8efb2ffb268368ad2e4e7d6fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetUserName
   - hash:
       serializedVersion: 2
       Hash: 6f195866f841a74edf8609a710343f67
@@ -991,12 +997,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: e72572f8efb2ffb268368ad2e4e7d6fe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GetUserName
   platform: 13
   scenePathNames:
   - Assets/Scenes/UserNameInput.unity

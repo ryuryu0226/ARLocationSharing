@@ -48,6 +48,8 @@ public class SampleScript : MonoBehaviour
 
     void Update()
     {
+        currentTime += Time.deltaTime;
+
         string status = "";
 
         // 初期化失敗またはトラッキングができたいない場合は何もしないで戻る
@@ -61,10 +63,8 @@ public class SampleScript : MonoBehaviour
         mylon = (float)pose.Longitude;
 
         // 位置情報を送受信
-        currentTime += Time.deltaTime;
         if(currentTime > span)
         {
-            currentTime = 0f;
             LocationSend(myname, pose.Latitude, pose.Longitude, pose.Altitude);
             LocationGet(friendname);
         }
@@ -80,44 +80,46 @@ public class SampleScript : MonoBehaviour
             status = "⾼精度︓High Tracking Accuracy";
             ShowTrackingInfo(status, pose);
 
-            if (friendLoc.Exist)
+            if(currentTime > span)
             {
-                // サーバーから取得した緯度・経度・高度にピンを表示
-                ARGeospatialAnchor anchor = AnchorManager.AddAnchor(friendLoc.Latitude, friendLoc.Longitude, friendLoc.Altitude, Quaternion.identity); // 指定した位置・向きのアンカーを作成 (緯度・経度・⾼度をx,y,zに、⽅位を姿勢に変換)
-
-                // 初めて⾼精度計測できたタイミングでオブジェクトを⽣成
-                if (displayObject == null)
+                if (friendLoc.Exist)
                 {
-                    // double Altitude = pose.Altitude; // スマホの⾼さ-1.5mでおよそ地⾯の⾼さとする (tentatively)
+                    // サーバーから取得した緯度・経度・高度にピンを表示
+                    ARGeospatialAnchor anchor = AnchorManager.AddAnchor(friendLoc.Latitude, friendLoc.Longitude, friendLoc.Altitude, Quaternion.identity); // 指定した位置・向きのアンカーを作成 (緯度・経度・⾼度をx,y,zに、⽅位を姿勢に変換)
 
-                    // 自分のGPSで取得した位置から緯度・経度少し話した位置にピンを表示
-                    // Quaternion quaternion = Quaternion.AngleAxis(180f - (float)pose.Heading, Vector3.up);  // ⾓度の補正(このあと使うAnchor⽣成関数が、南=0を前提としているため)
-                    // ARGeospatialAnchor anchor = AnchorManager.AddAnchor(pose.Latitude + 0.0001, pose.Longitude + 0.0001, pose.Altitude, quaternion); // 指定した位置・向きのアンカーを作成 (緯度・経度・⾼度をx,y,zに、⽅位を姿勢に変換)
-
-                    // アンカーが正しく作られていればオブジェクトを実体化
-                    if (anchor != null)
+                    // 初めて⾼精度計測できたタイミングでオブジェクトを⽣成
+                    if (displayObject == null)
                     {
-                        displayObject = Instantiate(ContentPrefab, anchor.transform);
+                        // double Altitude = pose.Altitude; // スマホの⾼さ-1.5mでおよそ地⾯の⾼さとする (tentatively)
 
-                         OutputText.text += string.Format(" Object Position: {0} \n" + " Camera Position: {1} \n",
-                            displayObject.transform.position.ToString(), // オブジェクトの位置
-                            Camera.main.transform.position.ToString() // カメラの位置
-                         );
+                        // 自分のGPSで取得した位置から緯度・経度少し話した位置にピンを表示
+                        // Quaternion quaternion = Quaternion.AngleAxis(180f - (float)pose.Heading, Vector3.up);  // ⾓度の補正(このあと使うAnchor⽣成関数が、南=0を前提としているため)
+                        // ARGeospatialAnchor anchor = AnchorManager.AddAnchor(pose.Latitude + 0.0001, pose.Longitude + 0.0001, pose.Altitude, quaternion); // 指定した位置・向きのアンカーを作成 (緯度・経度・⾼度をx,y,zに、⽅位を姿勢に変換)
+
+                        // アンカーが正しく作られていればオブジェクトを実体化
+                        if (anchor != null)
+                        {
+                            displayObject = Instantiate(ContentPrefab, anchor.transform);
+                        }
+                    }
+                    else
+                    {
+                        if (anchor != null)
+                        {
+                            displayObject.transform.position = anchor.transform.position;
+                            displayObject.transform.rotation = anchor.transform.rotation;
+                        }
                     }
                 }
-                else
-                {
-                    if (anchor != null)
-                    {
-                        displayObject.transform.position = anchor.transform.position;
-                        displayObject.transform.rotation = anchor.transform.rotation;
+                currentTime = 0f;
+            }
 
-                        OutputText.text += string.Format(" Object Position: {0} \n" + " Camera Position: {1} \n",
-                            displayObject.transform.position.ToString(), // オブジェクトの位置
-                            Camera.main.transform.position.ToString() // カメラの位置
-                        );
-                    }
-                }
+            if (displayObject != null)
+            {
+                OutputText.text += string.Format(" Object Position: {0} \n" + " Camera Position: {1} \n",
+                    displayObject.transform.position.ToString(), // オブジェクトの位置
+                    Camera.main.transform.position.ToString() // カメラの位置
+                );
             }
         }
 
