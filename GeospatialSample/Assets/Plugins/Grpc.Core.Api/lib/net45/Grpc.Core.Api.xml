@@ -708,6 +708,16 @@
             will result in creating an unsecure channel with no encryption whatsoever.
             </summary>
         </member>
+        <member name="P:Grpc.Core.ChannelCredentials.SecureSsl">
+            <summary>
+            Returns instance of credentials that provides SSL security.
+            <para>
+            These credentials are the same as creating <see cref="T:Grpc.Core.SslCredentials"/> without parameters.
+            Apps that are using Grpc.Core can create <see cref="T:Grpc.Core.SslCredentials"/> directly to customize
+            the secure SSL credentials.
+            </para>
+            </summary>
+        </member>
         <member name="M:Grpc.Core.ChannelCredentials.Create(Grpc.Core.ChannelCredentials,Grpc.Core.CallCredentials)">
             <summary>
             Creates a new instance of <c>ChannelCredentials</c> class by composing
