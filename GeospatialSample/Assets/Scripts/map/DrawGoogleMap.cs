@@ -5,8 +5,8 @@ using System;
 using UnityEngine.UI;
 
 public class DrawGoogleMap : MonoBehaviour {
-    public float lat = 35.6259034f;
-    public float lng = 139.7268499f;
+    public float lat = 34.64611f;
+    public float lng = 135.0041f;
     public string key = null;
     public int zoom = 15;
 

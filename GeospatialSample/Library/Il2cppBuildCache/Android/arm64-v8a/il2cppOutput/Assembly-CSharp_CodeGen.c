@@ -42,10 +42,10 @@ extern void SampleScript_ShowTrackingInfo_mCC07914D92859D65133ECD400EC2E40CFAF5F
 extern void SampleScript_NetworkCallTest_m6EC028E9AFB9D752FF2670E46B50EB9ABF887B32 (void);
 // 0x0000000F System.Void SampleScript::.ctor()
 extern void SampleScript__ctor_m49FA8D6A40F27E58499A19922FB16009292C20BD (void);
-// 0x00000010 System.Void SampleScript/<NetworkCallTest>d__16::MoveNext()
-extern void U3CNetworkCallTestU3Ed__16_MoveNext_m121B4C07EF96797B09F2FAE4C09449D5E2ADC765 (void);
-// 0x00000011 System.Void SampleScript/<NetworkCallTest>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CNetworkCallTestU3Ed__16_SetStateMachine_m88D757FCEAD2C6679A8831B8DA85A91FE9B0A6A6 (void);
+// 0x00000010 System.Void SampleScript/<NetworkCallTest>d__18::MoveNext()
+extern void U3CNetworkCallTestU3Ed__18_MoveNext_m94113B094BAD8D18439F49E5AF3C91EB2AE0DABD (void);
+// 0x00000011 System.Void SampleScript/<NetworkCallTest>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CNetworkCallTestU3Ed__18_SetStateMachine_mDB7CE743C5098BCE701E6952D3FE68E7F1A9282B (void);
 // 0x00000012 System.Void DrawGoogleMap::Start()
 extern void DrawGoogleMap_Start_m82A6FCD91EBEBFD16986247BF2340A0927D6DB0F (void);
 // 0x00000013 System.Void DrawGoogleMap::Update()
@@ -260,8 +260,8 @@ static Il2CppMethodPointer s_methodPointers[119] =
 	SampleScript_ShowTrackingInfo_mCC07914D92859D65133ECD400EC2E40CFAF5FC19,
 	SampleScript_NetworkCallTest_m6EC028E9AFB9D752FF2670E46B50EB9ABF887B32,
 	SampleScript__ctor_m49FA8D6A40F27E58499A19922FB16009292C20BD,
-	U3CNetworkCallTestU3Ed__16_MoveNext_m121B4C07EF96797B09F2FAE4C09449D5E2ADC765,
-	U3CNetworkCallTestU3Ed__16_SetStateMachine_m88D757FCEAD2C6679A8831B8DA85A91FE9B0A6A6,
+	U3CNetworkCallTestU3Ed__18_MoveNext_m94113B094BAD8D18439F49E5AF3C91EB2AE0DABD,
+	U3CNetworkCallTestU3Ed__18_SetStateMachine_mDB7CE743C5098BCE701E6952D3FE68E7F1A9282B,
 	DrawGoogleMap_Start_m82A6FCD91EBEBFD16986247BF2340A0927D6DB0F,
 	DrawGoogleMap_Update_m2C97548BBF684CB741DD1A69C37B0DDCCF448351,
 	DrawGoogleMap_Build_mF97C89082450A1208A5C9520D5EC854422BCB6BC,
@@ -367,8 +367,8 @@ static Il2CppMethodPointer s_methodPointers[119] =
 };
 extern void U3CCallTestU3Ed__2_MoveNext_mB33503E302F165ED4E5D81CA24D985EFA4D656A9_AdjustorThunk (void);
 extern void U3CCallTestU3Ed__2_SetStateMachine_mBACDDBD28F2DB9AE51FE880416D7F02CAD28DCC6_AdjustorThunk (void);
-extern void U3CNetworkCallTestU3Ed__16_MoveNext_m121B4C07EF96797B09F2FAE4C09449D5E2ADC765_AdjustorThunk (void);
-extern void U3CNetworkCallTestU3Ed__16_SetStateMachine_m88D757FCEAD2C6679A8831B8DA85A91FE9B0A6A6_AdjustorThunk (void);
+extern void U3CNetworkCallTestU3Ed__18_MoveNext_m94113B094BAD8D18439F49E5AF3C91EB2AE0DABD_AdjustorThunk (void);
+extern void U3CNetworkCallTestU3Ed__18_SetStateMachine_mDB7CE743C5098BCE701E6952D3FE68E7F1A9282B_AdjustorThunk (void);
 extern void GeospatialAnchorHistory__ctor_mF5091EC1C4BA24211B11553CEE9EAD77DCA7896E_AdjustorThunk (void);
 extern void GeospatialAnchorHistory__ctor_mE32F5D3294CA3EF3CB6C8C8774B07C34A7030161_AdjustorThunk (void);
 extern void GeospatialAnchorHistory_get_CreatedTime_m311061BC32E89B768CFADCF9A412CB2689C4C6C8_AdjustorThunk (void);
@@ -377,8 +377,8 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] =
 {
 	{ 0x06000006, U3CCallTestU3Ed__2_MoveNext_mB33503E302F165ED4E5D81CA24D985EFA4D656A9_AdjustorThunk },
 	{ 0x06000007, U3CCallTestU3Ed__2_SetStateMachine_mBACDDBD28F2DB9AE51FE880416D7F02CAD28DCC6_AdjustorThunk },
-	{ 0x06000010, U3CNetworkCallTestU3Ed__16_MoveNext_m121B4C07EF96797B09F2FAE4C09449D5E2ADC765_AdjustorThunk },
-	{ 0x06000011, U3CNetworkCallTestU3Ed__16_SetStateMachine_m88D757FCEAD2C6679A8831B8DA85A91FE9B0A6A6_AdjustorThunk },
+	{ 0x06000010, U3CNetworkCallTestU3Ed__18_MoveNext_m94113B094BAD8D18439F49E5AF3C91EB2AE0DABD_AdjustorThunk },
+	{ 0x06000011, U3CNetworkCallTestU3Ed__18_SetStateMachine_mDB7CE743C5098BCE701E6952D3FE68E7F1A9282B_AdjustorThunk },
 	{ 0x06000059, GeospatialAnchorHistory__ctor_mF5091EC1C4BA24211B11553CEE9EAD77DCA7896E_AdjustorThunk },
 	{ 0x0600005A, GeospatialAnchorHistory__ctor_mE32F5D3294CA3EF3CB6C8C8774B07C34A7030161_AdjustorThunk },
 	{ 0x0600005B, GeospatialAnchorHistory_get_CreatedTime_m311061BC32E89B768CFADCF9A412CB2689C4C6C8_AdjustorThunk },

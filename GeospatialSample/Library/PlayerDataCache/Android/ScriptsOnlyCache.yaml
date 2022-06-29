@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     - Google.XR.ARCoreExtensions.ARCoreExtensionsConfig
     - Google.XR.ARCoreExtensions.AREarthManager
     - Google.XR.ARCoreExtensions.Internal.RuntimeConfig
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -24,6 +26,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
@@ -69,41 +73,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1488}
+      Script: {instanceID: 1500}
     - Class: 114
-      Script: {instanceID: 1644}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 1752}
+      Script: {instanceID: 1678}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 3060}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3318}
     - Class: 114
-      Script: {instanceID: 3722}
+      Script: {instanceID: 3658}
     - Class: 114
-      Script: {instanceID: 3726}
+      Script: {instanceID: 3662}
     - Class: 114
-      Script: {instanceID: 3732}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 4140}
+      Script: {instanceID: 4076}
     - Class: 114
-      Script: {instanceID: 4242}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 4294}
+      Script: {instanceID: 4230}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4566}
     - Class: 114
-      Script: {instanceID: 4884}
+      Script: {instanceID: 4822}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -930,4 +934,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Sample.unity
-  playerPath: C:/work_space/org/testGeospatialSample.apk
+  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/GeospatialSample/Builds/sample.apk

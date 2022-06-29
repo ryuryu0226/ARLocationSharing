@@ -7175,27 +7175,27 @@ public:
 };
 
 
-// SampleScript/<NetworkCallTest>d__16
-struct U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC 
+// SampleScript/<NetworkCallTest>d__18
+struct U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB 
 {
 public:
-	// System.Int32 SampleScript/<NetworkCallTest>d__16::<>1__state
+	// System.Int32 SampleScript/<NetworkCallTest>d__18::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<NetworkCallTest>d__16::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<NetworkCallTest>d__18::<>t__builder
 	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
-	// SampleScript SampleScript/<NetworkCallTest>d__16::<>4__this
+	// SampleScript SampleScript/<NetworkCallTest>d__18::<>4__this
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * ___U3CU3E4__this_2;
-	// MyApp.Shared.IMyFirstService SampleScript/<NetworkCallTest>d__16::<client>5__2
+	// MyApp.Shared.IMyFirstService SampleScript/<NetworkCallTest>d__18::<client>5__2
 	RuntimeObject* ___U3CclientU3E5__2_3;
-	// System.String SampleScript/<NetworkCallTest>d__16::<username>5__3
+	// System.String SampleScript/<NetworkCallTest>d__18::<username>5__3
 	String_t* ___U3CusernameU3E5__3_4;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> SampleScript/<NetworkCallTest>d__16::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> SampleScript/<NetworkCallTest>d__18::<>u__1
 	TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  ___U3CU3Eu__1_5;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<MyApp.Shared.Location> SampleScript/<NetworkCallTest>d__16::<>u__2
+	// System.Runtime.CompilerServices.TaskAwaiter`1<MyApp.Shared.Location> SampleScript/<NetworkCallTest>d__18::<>u__2
 	TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  ___U3CU3Eu__2_6;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -7203,7 +7203,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
@@ -7221,7 +7221,7 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CU3E4__this_2)); }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * value)
@@ -7230,7 +7230,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CclientU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CclientU3E5__2_3)); }
+	inline static int32_t get_offset_of_U3CclientU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CclientU3E5__2_3)); }
 	inline RuntimeObject* get_U3CclientU3E5__2_3() const { return ___U3CclientU3E5__2_3; }
 	inline RuntimeObject** get_address_of_U3CclientU3E5__2_3() { return &___U3CclientU3E5__2_3; }
 	inline void set_U3CclientU3E5__2_3(RuntimeObject* value)
@@ -7239,7 +7239,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CclientU3E5__2_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CusernameU3E5__3_4() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CusernameU3E5__3_4)); }
+	inline static int32_t get_offset_of_U3CusernameU3E5__3_4() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CusernameU3E5__3_4)); }
 	inline String_t* get_U3CusernameU3E5__3_4() const { return ___U3CusernameU3E5__3_4; }
 	inline String_t** get_address_of_U3CusernameU3E5__3_4() { return &___U3CusernameU3E5__3_4; }
 	inline void set_U3CusernameU3E5__3_4(String_t* value)
@@ -7248,7 +7248,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CusernameU3E5__3_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_5() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CU3Eu__1_5)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_5() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CU3Eu__1_5)); }
 	inline TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  get_U3CU3Eu__1_5() const { return ___U3CU3Eu__1_5; }
 	inline TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C * get_address_of_U3CU3Eu__1_5() { return &___U3CU3Eu__1_5; }
 	inline void set_U3CU3Eu__1_5(TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  value)
@@ -7257,7 +7257,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC, ___U3CU3Eu__2_6)); }
+	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB, ___U3CU3Eu__2_6)); }
 	inline TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
 	inline TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054 * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
 	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  value)
@@ -8611,6 +8611,10 @@ public:
 	ARAnchorManager_t969330AB785F0DC41EF9F4390D77F7ABA30F7D0F * ___AnchorManager_15;
 	// UnityEngine.UI.Text SampleScript::NetworkResultText
 	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___NetworkResultText_16;
+	// System.Single SampleScript::span
+	float ___span_17;
+	// System.Single SampleScript::currentTime
+	float ___currentTime_18;
 
 public:
 	inline static int32_t get_offset_of_EarthManager_4() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___EarthManager_4)); }
@@ -8722,6 +8726,22 @@ public:
 	{
 		___NetworkResultText_16 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___NetworkResultText_16), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_span_17() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___span_17)); }
+	inline float get_span_17() const { return ___span_17; }
+	inline float* get_address_of_span_17() { return &___span_17; }
+	inline void set_span_17(float value)
+	{
+		___span_17 = value;
+	}
+
+	inline static int32_t get_offset_of_currentTime_18() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___currentTime_18)); }
+	inline float get_currentTime_18() const { return ___currentTime_18; }
+	inline float* get_address_of_currentTime_18() { return &___currentTime_18; }
+	inline void set_currentTime_18(float value)
+	{
+		___currentTime_18 = value;
 	}
 };
 
@@ -12828,15 +12848,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4583[1] =
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4585[7] = 
 {
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CclientU3E5__2_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CusernameU3E5__3_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CU3Eu__1_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__16_tA8F3776B8B89E5102B30C6AE917D203F6CAA2DFC::get_offset_of_U3CU3Eu__2_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CclientU3E5__2_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CusernameU3E5__3_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CU3Eu__1_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__18_t748B5A4A6F1EEEBB5ECA29E313368C08BD4BA0AB::get_offset_of_U3CU3Eu__2_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4586[13] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4586[15] = 
 {
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_EarthManager_4(),
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_Initializer_5(),
@@ -12851,6 +12871,8 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4586[13] =
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_displayObject_14(),
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_AnchorManager_15(),
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_NetworkResultText_16(),
+	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_span_17(),
+	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_currentTime_18(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4587[5] = 
 {

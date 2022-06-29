@@ -28,8 +28,9 @@ public class SampleScript : MonoBehaviour
     public GameObject ContentPrefab; //表⽰オブジェクトの元データ
     GameObject displayObject; //実際に表⽰するオブジェクト
     public ARAnchorManager AnchorManager; //アンカー作成に使⽤
-
     public Text NetworkResultText; //ネットワーク通信の結果を表示
+    float span = 3f;
+    private float currentTime = 0f;
 
     void Start()
     {
@@ -41,45 +42,52 @@ public class SampleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        string status = "";
+        // currentTime += Time.deltaTime;
 
-        // 初期化失敗またはトラッキングができたいない場合は何もしないで戻る
-        if (!Initializer.IsReady || EarthManager.EarthTrackingState != TrackingState.Tracking)
-        {
-            return;
-        }
-        // トラッキング結果を取得
-        GeospatialPose pose = EarthManager.CameraGeospatialPose;
+        // if(currentTime > span){
+        //     Debug.LogFormat ("{0}秒経過", span);
+        //     currentTime = 0f;
+        //     NetworkCallTest();
+        // }
+        
+        // string status = "";
 
-        // トラッキング精度がthresholdより悪い(値が⼤きい)場合
-        if (pose.HeadingAccuracy > HeadingThreshold || pose.HorizontalAccuracy > HorizontalThreshold)
-        {
-            status = "低精度︓周辺を⾒回してください";
-        }
-        else // 許容誤差以内の場合
-        {
-            status = "⾼精度︓High Tracking Accuracy";
+        // // 初期化失敗またはトラッキングができたいない場合は何もしないで戻る
+        // if (!Initializer.IsReady || EarthManager.EarthTrackingState != TrackingState.Tracking)
+        // {
+        //     return;
+        // }
+        // // トラッキング結果を取得
+        // GeospatialPose pose = EarthManager.CameraGeospatialPose;
 
-            // 初めて⾼精度計測できたタイミングでオブジェクトを⽣成
-            if (displayObject == null)
-            {
-                // Altitude = pose.Altitude - 1.5f; // スマホの⾼さ-1.5mでおよそ地⾯の⾼さとする (tentatively)
-                Altitude = pose.Altitude;
+        // // トラッキング精度がthresholdより悪い(値が⼤きい)場合
+        // if (pose.HeadingAccuracy > HeadingThreshold || pose.HorizontalAccuracy > HorizontalThreshold)
+        // {
+        //     status = "低精度︓周辺を⾒回してください";
+        // }
+        // else // 許容誤差以内の場合
+        // {
+        //     status = "⾼精度︓High Tracking Accuracy";
 
-                Quaternion quaternion = Quaternion.AngleAxis(180f - (float)Heading, Vector3.up);  // ⾓度の補正(このあと使うAnchor⽣成関数が、南=0を前提としているため)
-                ARGeospatialAnchor anchor = AnchorManager.AddAnchor(Latitude, Longitude, Altitude, quaternion); // 指定した位置・向きのアンカーを作成 (緯度・経度・⾼度をx,y,zに、⽅位を姿勢に変換)
+        //     // 初めて⾼精度計測できたタイミングでオブジェクトを⽣成
+        //     if (displayObject == null)
+        //     {
+        //         // Altitude = pose.Altitude - 1.5f; // スマホの⾼さ-1.5mでおよそ地⾯の⾼さとする (tentatively)
+        //         Altitude = pose.Altitude;
 
-                // アンカーが正しく作られていればオブジェクトを実体化
-                if (anchor != null)
-                {
-                    displayObject = Instantiate(ContentPrefab, anchor.transform);
-                }
-            }
-        }
-        //結果を表⽰(statusはのちほど使う)
-        ShowTrackingInfo(status, pose, displayObject);
-        */
+        //         Quaternion quaternion = Quaternion.AngleAxis(180f - (float)Heading, Vector3.up);  // ⾓度の補正(このあと使うAnchor⽣成関数が、南=0を前提としているため)
+        //         ARGeospatialAnchor anchor = AnchorManager.AddAnchor(Latitude, Longitude, Altitude, quaternion); // 指定した位置・向きのアンカーを作成 (緯度・経度・⾼度をx,y,zに、⽅位を姿勢に変換)
+
+        //         // アンカーが正しく作られていればオブジェクトを実体化
+        //         if (anchor != null)
+        //         {
+        //             displayObject = Instantiate(ContentPrefab, anchor.transform);
+        //         }
+        //     }
+        // }
+        // //結果を表⽰(statusはのちほど使う)
+        // ShowTrackingInfo(status, pose, displayObject);
+        
 
     }
     void ShowTrackingInfo(string status, GeospatialPose pose, GameObject obj)
@@ -115,10 +123,10 @@ public class SampleScript : MonoBehaviour
         NetworkResultText.text = "NetworkCallTest() has called.";
         Debug.Log("NetworkCallTest() has called.");
 
-        //string host = "160.251.18.95";  // VPS サーバーに送信する場合 (グローバル通信)
-        //string host = "localhost";      // 同一マシン内のサーバーに送信する場合
-        string host = "192.168.32.237";   // ローカルネットワーク内のサーバーに送信する場合 (プライベートアドレスを固定する必要アリ)
-        //string host = "0.0.0.0";
+        string host = "160.251.18.95";  // VPS サーバーに送信する場合 (グローバル通信)
+        // string host = "localhost";      // 同一マシン内のサーバーに送信する場合
+        // string host = "192.168.32.237";   // ローカルネットワーク内のサーバーに送信する場合 (プライベートアドレスを固定する必要アリ)
+        // string host = "0.0.0.0";
 
         int port = 12345; //ネットワーク通信用ポート番号
 
@@ -135,6 +143,8 @@ public class SampleScript : MonoBehaviour
         my_location.Altitude = 93;
         my_location.Exist = true;
 
+        NetworkResultText.text += string.Format($"\n {0}", my_location.ToString());
+
         bool res = await client.SendLocation(my_location); // サーバーへ送信 (SendLocation の実装は /ARLocationSharing/NetworkApp-Server/Services/MyFirstService.cs )
         Debug.Log($"SendLocation Result: {res}");
         NetworkResultText.text += $"\n SendLocation Result: {res}";
@@ -143,6 +153,7 @@ public class SampleScript : MonoBehaviour
         /* 位置情報-受信 */
         // 引数 username に該当するユーザーの位置情報を取得する
         string username = "tarou";
+        // string username = "hanako";
         Location loc = await client.GetLocation(username); // サーバーへ送信 (GetLocation の実装は /ARLocationSharing/NetworkApp-Server/Services/MyFirstService.cs )
         if (loc.Exist) // 該当ユーザーが存在する
         {

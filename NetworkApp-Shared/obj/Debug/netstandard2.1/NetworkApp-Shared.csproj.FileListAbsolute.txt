@@ -8,3 +8,12 @@ C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\N
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.dll
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.pdb
 C:\work_space\org\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.csproj.AssemblyReference.cache
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\bin\Debug\netstandard2.1\NetworkApp-Shared.deps.json
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\bin\Debug\netstandard2.1\NetworkApp-Shared.dll
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\bin\Debug\netstandard2.1\NetworkApp-Shared.pdb
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.csproj.AssemblyReference.cache
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.AssemblyInfoInputs.cache
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.AssemblyInfo.cs
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.csproj.CoreCompileInputs.cache
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.dll
+D:\Uramune_Developing\UnityProject\Project\ARLocationSharing\NetworkApp-Shared\obj\Debug\netstandard2.1\NetworkApp-Shared.pdb
