@@ -323,6 +323,8 @@ struct GeneratedResolver_t02433F436E4BC742B45D6D354DCAAC0AA75EF098;
 struct GeospatialAnchorHistoryCollection_t36DBFC64D28A956FECCE7DD20DE5E7B7A53F9645;
 // Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController
 struct GeospatialController_t6690612341742452119EF6A0F2E16E1ED7B5945C;
+// GetUserName
+struct GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203;
 // UnityEngine.UI.Graphic
 struct Graphic_tF07D777035055CF93BA5F46F77ED5EDFEFF9AE24;
 // Grpc.Core.GrpcEnvironment
@@ -514,6 +516,7 @@ IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF
 IL2CPP_EXTERN_C RuntimeClass* Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t8C8EB8CFC5F8234D0EC9F5AB760FA7AF6DDF2070_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StandardResolver_t26D489E25A3EAD9F1305E9874C2D2C77A07A1350_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StaticCompositeResolver_tD796B0D5F6D574C41188237D76CF28F06F346A1B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var;
@@ -573,6 +576,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral970A4D6490D612AAF148057C65320C8178CD0C87
 IL2CPP_EXTERN_C String_t* _stringLiteral97204ED8D0AF0DA6C1B5C926D38775BF1CFB6D80;
 IL2CPP_EXTERN_C String_t* _stringLiteral98BA9C6DB7CB1F119876677A9D68E6B455A09888;
 IL2CPP_EXTERN_C String_t* _stringLiteral99127137179C374B76B39285D20763240B8B3BBD;
+IL2CPP_EXTERN_C String_t* _stringLiteral9F11A36BD6A5ECA64AE3B9C16B4F2347511D1E4B;
 IL2CPP_EXTERN_C String_t* _stringLiteralA0A24FC541CCC2A139AC9F8BE75113AD3649BFBD;
 IL2CPP_EXTERN_C String_t* _stringLiteralA628C3EA1A977D457A54A899CA2F513C35C50B9C;
 IL2CPP_EXTERN_C String_t* _stringLiteralA7C5D96B8C7FA44C62C06CC2DC62E1C94C27AC11;
@@ -592,6 +596,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391
 IL2CPP_EXTERN_C String_t* _stringLiteralCDD0E29C4A5251B9843B15E7DBD03F1411828478;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE0F9944E99086C55A95954FA5F0D81791DEE76B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD7A905249C0409DB8B563D30BAE889395AFBDB30;
+IL2CPP_EXTERN_C String_t* _stringLiteralD8F837130C840B65AE1D2C4AF68B80850FADA2D5;
 IL2CPP_EXTERN_C String_t* _stringLiteralD98B91B80DF1365100F167CEBFA7CD461FEAB2F5;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDE0D2C7E866F161F8886976B7C5F3F27F3BB4E7A;
@@ -7776,6 +7781,36 @@ public:
 };
 
 
+// GetUserName
+struct GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.UI.Text GetUserName::MyName
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___MyName_4;
+	// UnityEngine.UI.Text GetUserName::FriendName
+	Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * ___FriendName_5;
+
+public:
+	inline static int32_t get_offset_of_MyName_4() { return static_cast<int32_t>(offsetof(GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203, ___MyName_4)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_MyName_4() const { return ___MyName_4; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_MyName_4() { return &___MyName_4; }
+	inline void set_MyName_4(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	{
+		___MyName_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___MyName_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_FriendName_5() { return static_cast<int32_t>(offsetof(GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203, ___FriendName_5)); }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * get_FriendName_5() const { return ___FriendName_5; }
+	inline Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 ** get_address_of_FriendName_5() { return &___FriendName_5; }
+	inline void set_FriendName_5(Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * value)
+	{
+		___FriendName_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FriendName_5), (void*)value);
+	}
+};
+
+
 // MyApp.Shared.MyFirstServiceClient
 struct MyFirstServiceClient_t16936E705FA274DAA669F5848E85DDE3D2F967DC  : public MagicOnionClientBase_1_t98505F113E05038E6829A83FEA800F0A6262BEFC
 {
@@ -7935,10 +7970,6 @@ public:
 	String_t* ___host_16;
 	// System.Int32 SampleScript::port
 	int32_t ___port_17;
-	// System.String SampleScript::myname
-	String_t* ___myname_18;
-	// System.String SampleScript::friendname
-	String_t* ___friendname_19;
 	// MyApp.Shared.Location SampleScript::friendLoc
 	Location_tB4B6F083CEB6F975A7753E3B601856BED01E4527 * ___friendLoc_20;
 
@@ -8064,24 +8095,6 @@ public:
 		___port_17 = value;
 	}
 
-	inline static int32_t get_offset_of_myname_18() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___myname_18)); }
-	inline String_t* get_myname_18() const { return ___myname_18; }
-	inline String_t** get_address_of_myname_18() { return &___myname_18; }
-	inline void set_myname_18(String_t* value)
-	{
-		___myname_18 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___myname_18), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_friendname_19() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___friendname_19)); }
-	inline String_t* get_friendname_19() const { return ___friendname_19; }
-	inline String_t** get_address_of_friendname_19() { return &___friendname_19; }
-	inline void set_friendname_19(String_t* value)
-	{
-		___friendname_19 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___friendname_19), (void*)value);
-	}
-
 	inline static int32_t get_offset_of_friendLoc_20() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___friendLoc_20)); }
 	inline Location_tB4B6F083CEB6F975A7753E3B601856BED01E4527 * get_friendLoc_20() const { return ___friendLoc_20; }
 	inline Location_tB4B6F083CEB6F975A7753E3B601856BED01E4527 ** get_address_of_friendLoc_20() { return &___friendLoc_20; }
@@ -8095,12 +8108,34 @@ public:
 struct SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields
 {
 public:
+	// System.String SampleScript::myname
+	String_t* ___myname_18;
+	// System.String SampleScript::friendname
+	String_t* ___friendname_19;
 	// System.Single SampleScript::mylat
 	float ___mylat_21;
 	// System.Single SampleScript::mylon
 	float ___mylon_22;
 
 public:
+	inline static int32_t get_offset_of_myname_18() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields, ___myname_18)); }
+	inline String_t* get_myname_18() const { return ___myname_18; }
+	inline String_t** get_address_of_myname_18() { return &___myname_18; }
+	inline void set_myname_18(String_t* value)
+	{
+		___myname_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___myname_18), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_friendname_19() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields, ___friendname_19)); }
+	inline String_t* get_friendname_19() const { return ___friendname_19; }
+	inline String_t** get_address_of_friendname_19() { return &___friendname_19; }
+	inline void set_friendname_19(String_t* value)
+	{
+		___friendname_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___friendname_19), (void*)value);
+	}
+
 	inline static int32_t get_offset_of_mylat_21() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields, ___mylat_21)); }
 	inline float get_mylat_21() const { return ___mylat_21; }
 	inline float* get_address_of_mylat_21() { return &___mylat_21; }
@@ -9921,6 +9956,8 @@ inline void List_1__ctor_m859B0EE8491FDDEB1A3F7115D334B863E025BBC8 (List_1_t6D0A
 {
 	((  void (*) (List_1_t6D0A10F47F3440798295D2FFFC6D016477AF38E5 *, const RuntimeMethod*))List_1__ctor_m0F0E00088CF56FEACC9E32D8B7D91B93D91DAA3B_gshared)(__this, method);
 }
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092 (String_t* ___sceneName0, const RuntimeMethod* method);
 // System.Void MessagePack.MessagePackWriter::WriteNil()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePackWriter_WriteNil_m7F273805CA822781160B3ED893C57839C90A219A (MessagePackWriter_t996DEE2ED19321D328C797FE8FA19E072D670136 * __this, const RuntimeMethod* method);
 // MessagePack.IFormatterResolver MessagePack.MessagePackSerializerOptions::get_Resolver()
@@ -13071,6 +13108,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeospatialController__ctor_m5C6F15F6F830
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void GetUserName::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetUserName_Start_mD1B738344D0F59355C9003F39DFC89A38761A803 (GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void GetUserName::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetUserName_Update_m5FC447509B7B961D2810ADEA360DDA9FC63FADC3 (GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void GetUserName::OnClickStartButton()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetUserName_OnClickStartButton_mDF68741361486D0A84B649C842760055A5A98381 (GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD8F837130C840B65AE1D2C4AF68B80850FADA2D5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SampleScript.myname = MyName.text;
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_0 = __this->get_MyName_4();
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var);
+		((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->set_myname_18(L_1);
+		// SampleScript.friendname = FriendName.text;
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_2 = __this->get_FriendName_5();
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_2);
+		((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->set_friendname_19(L_3);
+		// Debug.Log(SampleScript.myname);
+		String_t* L_4 = ((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->get_myname_18();
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_4, /*hidden argument*/NULL);
+		// Debug.Log(SampleScript.friendname);
+		String_t* L_5 = ((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->get_friendname_19();
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_5, /*hidden argument*/NULL);
+		// SceneManager.LoadScene("ARLocationSharing");
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(_stringLiteralD8F837130C840B65AE1D2C4AF68B80850FADA2D5, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void GetUserName::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetUserName__ctor_mB3AA3CFB0D29131F5192B7E20D553FD3B60FBDAF (GetUserName_t045563AF1D71B1894B22BFC6F135AA5C5C616203 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.String MyApp.Shared.Location::get_Username()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Location_get_Username_m490DFFE320CB2F103929C66E527D7C7B446C0C59 (Location_tB4B6F083CEB6F975A7753E3B601856BED01E4527 * __this, const RuntimeMethod* method)
 {
@@ -14430,14 +14539,15 @@ IL_0022:
 		float L_13 = __this->get_span_14();
 		if ((!(((float)L_12) > ((float)L_13))))
 		{
-			goto IL_009b;
+			goto IL_0099;
 		}
 	}
 	{
 		// currentTime = 0f;
 		__this->set_currentTime_15((0.0f));
 		// LocationSend(myname, pose.Latitude, pose.Longitude, pose.Altitude);
-		String_t* L_14 = __this->get_myname_18();
+		IL2CPP_RUNTIME_CLASS_INIT(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var);
+		String_t* L_14 = ((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->get_myname_18();
 		GeospatialPose_t360F6479DE7A680CB4DF86477D81885FAC3C9C8D  L_15 = V_1;
 		double L_16 = L_15.get_Latitude_0();
 		GeospatialPose_t360F6479DE7A680CB4DF86477D81885FAC3C9C8D  L_17 = V_1;
@@ -14446,11 +14556,11 @@ IL_0022:
 		double L_20 = L_19.get_Altitude_2();
 		SampleScript_LocationSend_mEEA2FA0B57C967117954399427BFCB1BAA85D1B6(__this, L_14, L_16, L_18, L_20, /*hidden argument*/NULL);
 		// LocationGet(friendname);
-		String_t* L_21 = __this->get_friendname_19();
+		String_t* L_21 = ((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->get_friendname_19();
 		SampleScript_LocationGet_mBF5837CC23597AD01D985F4B000A53089DDF4A65(__this, L_21, /*hidden argument*/NULL);
 	}
 
-IL_009b:
+IL_0099:
 	{
 		// if (pose.HeadingAccuracy > HeadingThreshold || pose.HorizontalAccuracy > HorizontalThreshold)
 		GeospatialPose_t360F6479DE7A680CB4DF86477D81885FAC3C9C8D  L_22 = V_1;
@@ -14458,7 +14568,7 @@ IL_009b:
 		double L_24 = __this->get_HeadingThreshold_7();
 		if ((((double)L_23) > ((double)L_24)))
 		{
-			goto IL_00b7;
+			goto IL_00b5;
 		}
 	}
 	{
@@ -14467,11 +14577,11 @@ IL_009b:
 		double L_27 = __this->get_HorizontalThreshold_8();
 		if ((!(((double)L_26) > ((double)L_27))))
 		{
-			goto IL_00c6;
+			goto IL_00c4;
 		}
 	}
 
-IL_00b7:
+IL_00b5:
 	{
 		// status = "低精度︓周辺を⾒回してください";
 		V_0 = _stringLiteral4E287435FD397C47BE968855D25241480B97C5C9;
@@ -14483,7 +14593,7 @@ IL_00b7:
 		return;
 	}
 
-IL_00c6:
+IL_00c4:
 	{
 		// status = "⾼精度︓High Tracking Accuracy";
 		V_0 = _stringLiteralD98B91B80DF1365100F167CEBFA7CD461FEAB2F5;
@@ -14498,7 +14608,7 @@ IL_00c6:
 		L_33 = Location_get_Exist_m62A8E462B707A5EB57C400C7F4BFBD135C51EEB4_inline(L_32, /*hidden argument*/NULL);
 		if (!L_33)
 		{
-			goto IL_0240;
+			goto IL_023e;
 		}
 	}
 	{
@@ -14529,7 +14639,7 @@ IL_00c6:
 		L_44 = Object_op_Equality_mEE9EC7EB5C7DC3E95B94AB904E1986FC4D566D54(L_43, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
 		if (!L_44)
 		{
-			goto IL_01a3;
+			goto IL_01a1;
 		}
 	}
 	{
@@ -14540,7 +14650,7 @@ IL_00c6:
 		L_46 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_45, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
 		if (!L_46)
 		{
-			goto IL_0240;
+			goto IL_023e;
 		}
 	}
 	{
@@ -14594,7 +14704,7 @@ IL_00c6:
 		return;
 	}
 
-IL_01a3:
+IL_01a1:
 	{
 		// if (anchor != null)
 		ARGeospatialAnchor_tF7BD994A88D37D4DAADC1958C201114E6BDE8A3B * L_64 = V_2;
@@ -14603,7 +14713,7 @@ IL_01a3:
 		L_65 = Object_op_Inequality_mE1F187520BD83FB7D86A6D850710C4D42B864E90(L_64, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
 		if (!L_65)
 		{
-			goto IL_0240;
+			goto IL_023e;
 		}
 	}
 	{
@@ -14673,7 +14783,7 @@ IL_01a3:
 		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_77, L_88);
 	}
 
-IL_0240:
+IL_023e:
 	{
 		// }
 		return;
@@ -14880,9 +14990,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleScript__ctor_m49FA8D6A40F27E58499A
 		__this->set_HorizontalThreshold_8((20.0));
 		// float span = 3f;
 		__this->set_span_14((3.0f));
-		// string host = "160.251.18.95";  // VPS サーバーに送信する場合 (グローバル通信)
+		// string host = "160.251.18.95"; // VPS サーバーに送信する場合 (グローバル通信)
 		__this->set_host_16(_stringLiteral4C60E532EB7C1614B2A9A250E36804D6C6367B61);
-		// int port = 12345; //ネットワーク通信用ポート番号
+		// int port = 12345; // ネットワーク通信用ポート番号
 		__this->set_port_17(((int32_t)12345));
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
@@ -14895,9 +15005,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleScript__cctor_mCB438D1CD9C280630D6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9F11A36BD6A5ECA64AE3B9C16B4F2347511D1E4B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB721EE6B4D4BC81431E814A15BE1306605CB14EB);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// public static string myname = "taro";
+		((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->set_myname_18(_stringLiteral9F11A36BD6A5ECA64AE3B9C16B4F2347511D1E4B);
+		// public static string friendname = "hanako";
+		((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->set_friendname_19(_stringLiteralB721EE6B4D4BC81431E814A15BE1306605CB14EB);
 		// public static float mylat = 34.64611f;
 		((SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields*)il2cpp_codegen_static_fields_for(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_il2cpp_TypeInfo_var))->set_mylat_21((34.6461105f));
 		// public static float mylon = 135.0041f;

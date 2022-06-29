@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AR_Fukuoka.VpsInitializer
     - DrawGoogleMap
+    - GetUserName
     - NetworkAppCall
     - SampleScript
     Google.XR.ARCoreExtensions.dll:
@@ -40,12 +41,16 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Sample.unity:
+    Assets/Scenes/ARLocationSharing.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -73,41 +78,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1530}
+      Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1746}
+      Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 2820}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 3014}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3444}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 3796}
+      Script: {instanceID: 3738}
     - Class: 114
-      Script: {instanceID: 3800}
+      Script: {instanceID: 3742}
     - Class: 114
-      Script: {instanceID: 3806}
+      Script: {instanceID: 3748}
     - Class: 114
-      Script: {instanceID: 4222}
+      Script: {instanceID: 4164}
     - Class: 114
-      Script: {instanceID: 4324}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 4380}
+      Script: {instanceID: 4322}
     - Class: 114
-      Script: {instanceID: 4734}
+      Script: {instanceID: 4670}
     - Class: 114
-      Script: {instanceID: 4998}
+      Script: {instanceID: 4934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -119,6 +124,61 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/UserNameInput.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1510}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 2726}
+    - Class: 114
+      Script: {instanceID: 2866}
+    - Class: 114
+      Script: {instanceID: 3124}
+    - Class: 114
+      Script: {instanceID: 3192}
+    - Class: 114
+      Script: {instanceID: 3388}
+    - Class: 114
+      Script: {instanceID: 3518}
+    - Class: 114
+      Script: {instanceID: 17550}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -441,7 +501,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 4c379ef77b285ceb59e501438c391df0
+      Hash: 184800ca682c0fff3ca0aca05b774ee6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleScript
@@ -931,7 +991,14 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e72572f8efb2ffb268368ad2e4e7d6fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetUserName
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Sample.unity
-  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/GeospatialSample/Builds/sample.apk
+  - Assets/Scenes/UserNameInput.unity
+  - Assets/Scenes/ARLocationSharing.unity
+  playerPath: D:/Uramune_Developing/UnityProject/Project/ARLocationSharing/GeospatialSample/Builds/ARLocationSharing.apk
