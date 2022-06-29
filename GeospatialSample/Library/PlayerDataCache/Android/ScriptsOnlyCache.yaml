@@ -73,41 +73,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1500}
+      Script: {instanceID: 1530}
     - Class: 114
-      Script: {instanceID: 1570}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1678}
+      Script: {instanceID: 1746}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2778}
     - Class: 114
-      Script: {instanceID: 2718}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2726}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 3318}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 3658}
+      Script: {instanceID: 3796}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3800}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3806}
     - Class: 114
-      Script: {instanceID: 4076}
+      Script: {instanceID: 4222}
     - Class: 114
-      Script: {instanceID: 4178}
+      Script: {instanceID: 4324}
     - Class: 114
-      Script: {instanceID: 4230}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4566}
+      Script: {instanceID: 4734}
     - Class: 114
-      Script: {instanceID: 4822}
+      Script: {instanceID: 4998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -441,7 +441,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 55c90934e81717a17edb932da0a7c77a
+      Hash: 51dacceb515e526d50ae3c0be7c3f139
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleScript

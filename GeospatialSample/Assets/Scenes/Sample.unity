@@ -685,8 +685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 812e7c9415e7047ac953b4da394dac4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lat: 34.803112
-  lng: 135.45566
   key: AIzaSyAQB4qNa58MXu8ou0qrHv26cSWbrFbEKTo
   zoom: 15
 --- !u!114 &941773021
@@ -762,13 +760,11 @@ MonoBehaviour:
   OutputText: {fileID: 172510118}
   HeadingThreshold: 25
   HorizontalThreshold: 20
-  Latitude: 34.80303023053298
-  Longitude: 135.45598200804162
-  Altitude: 93
-  Heading: 0
   ContentPrefab: {fileID: 5774021760677220234, guid: 804a5ee4828904a6b9f0ff7cce04f4b0, type: 3}
   AnchorManager: {fileID: 634484914}
   NetworkResultText: {fileID: 898007908}
+  myname: hanako
+  friendname: taro
 --- !u!114 &1111318167
 MonoBehaviour:
   m_ObjectHideFlags: 0
