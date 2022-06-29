@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -597,13 +597,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: NetworkResultText
 --- !u!222 &898007909
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -628,8 +628,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: -257.72726}
-  m_SizeDelta: {x: 480, y: 360}
+  m_AnchoredPosition: {x: -10, y: -110}
+  m_SizeDelta: {x: 780, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &941773018
 GameObject:
@@ -764,6 +764,7 @@ MonoBehaviour:
   Heading: 0
   ContentPrefab: {fileID: 5774021760677220234, guid: 804a5ee4828904a6b9f0ff7cce04f4b0, type: 3}
   AnchorManager: {fileID: 634484914}
+  NetworkResultText: {fileID: 898007908}
 --- !u!114 &1111318167
 MonoBehaviour:
   m_ObjectHideFlags: 0

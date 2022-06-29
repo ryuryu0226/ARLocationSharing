@@ -82,10 +82,10 @@ static Il2CppMethodPointer s_methodPointers[27] =
 };
 static const int32_t s_InvokerIndices[27] = 
 {
-	7576,
-	6782,
-	7576,
-	7576,
+	7583,
+	6789,
+	7583,
+	7583,
 	-1,
 	-1,
 	-1,
@@ -97,7 +97,7 @@ static const int32_t s_InvokerIndices[27] =
 	246,
 	1135,
 	5595,
-	7594,
+	7601,
 	-1,
 	-1,
 	-1,
@@ -107,8 +107,8 @@ static const int32_t s_InvokerIndices[27] =
 	-1,
 	-1,
 	-1,
-	7320,
-	7320,
+	7327,
+	7327,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
@@ -118,29 +118,29 @@ static const Il2CppTokenRangePair s_rgctxIndices[3] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[23] = 
 {
-	{ (Il2CppRGCTXDataType)2, 2507 },
-	{ (Il2CppRGCTXDataType)3, 47174 },
-	{ (Il2CppRGCTXDataType)3, 1346 },
-	{ (Il2CppRGCTXDataType)3, 1345 },
-	{ (Il2CppRGCTXDataType)3, 45242 },
-	{ (Il2CppRGCTXDataType)2, 2843 },
-	{ (Il2CppRGCTXDataType)3, 4787 },
-	{ (Il2CppRGCTXDataType)3, 4788 },
-	{ (Il2CppRGCTXDataType)3, 4789 },
-	{ (Il2CppRGCTXDataType)3, 1347 },
 	{ (Il2CppRGCTXDataType)2, 2509 },
+	{ (Il2CppRGCTXDataType)3, 47180 },
+	{ (Il2CppRGCTXDataType)3, 1348 },
+	{ (Il2CppRGCTXDataType)3, 1347 },
+	{ (Il2CppRGCTXDataType)3, 45248 },
+	{ (Il2CppRGCTXDataType)2, 2845 },
+	{ (Il2CppRGCTXDataType)3, 4789 },
 	{ (Il2CppRGCTXDataType)3, 4790 },
-	{ (Il2CppRGCTXDataType)2, 7238 },
-	{ (Il2CppRGCTXDataType)2, 2604 },
-	{ (Il2CppRGCTXDataType)3, 3235 },
-	{ (Il2CppRGCTXDataType)2, 2844 },
-	{ (Il2CppRGCTXDataType)2, 7150 },
-	{ (Il2CppRGCTXDataType)3, 3236 },
-	{ (Il2CppRGCTXDataType)3, 3238 },
+	{ (Il2CppRGCTXDataType)3, 4791 },
+	{ (Il2CppRGCTXDataType)3, 1349 },
+	{ (Il2CppRGCTXDataType)2, 2511 },
+	{ (Il2CppRGCTXDataType)3, 4792 },
+	{ (Il2CppRGCTXDataType)2, 7240 },
+	{ (Il2CppRGCTXDataType)2, 2606 },
 	{ (Il2CppRGCTXDataType)3, 3237 },
-	{ (Il2CppRGCTXDataType)2, 7295 },
-	{ (Il2CppRGCTXDataType)2, 7207 },
+	{ (Il2CppRGCTXDataType)2, 2846 },
+	{ (Il2CppRGCTXDataType)2, 7152 },
+	{ (Il2CppRGCTXDataType)3, 3238 },
+	{ (Il2CppRGCTXDataType)3, 3240 },
 	{ (Il2CppRGCTXDataType)3, 3239 },
+	{ (Il2CppRGCTXDataType)2, 7297 },
+	{ (Il2CppRGCTXDataType)2, 7209 },
+	{ (Il2CppRGCTXDataType)3, 3241 },
 };
 extern const CustomAttributesCacheGenerator g_System_Buffers_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Buffers_CodeGenModule;

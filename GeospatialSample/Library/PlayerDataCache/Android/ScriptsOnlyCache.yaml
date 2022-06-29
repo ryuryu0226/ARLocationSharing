@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AR_Fukuoka.VpsInitializer
+    - DrawGoogleMap
     - NetworkAppCall
     - SampleScript
     Google.XR.ARCoreExtensions.dll:
@@ -23,8 +24,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
@@ -39,6 +38,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Sample.unity:
@@ -69,37 +69,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1724}
+      Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 2964}
+      Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 3194}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3378}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3720}
+      Script: {instanceID: 3202}
     - Class: 114
-      Script: {instanceID: 3724}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 3730}
+      Script: {instanceID: 3722}
+    - Class: 114
+      Script: {instanceID: 3726}
+    - Class: 114
+      Script: {instanceID: 3732}
     - Class: 114
       Script: {instanceID: 4140}
     - Class: 114
-      Script: {instanceID: 4244}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4294}
     - Class: 114
-      Script: {instanceID: 4634}
+      Script: {instanceID: 4630}
     - Class: 114
-      Script: {instanceID: 4892}
+      Script: {instanceID: 4884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -301,6 +305,12 @@ ScriptsOnlyBuild:
     className: ARCameraManager
   - hash:
       serializedVersion: 2
+      Hash: b2d26b3ff747d1954a745df9999b8a05
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawGoogleMap
+  - hash:
+      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -427,7 +437,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 22c9ae924cdec6315786c520e1a5cdf5
+      Hash: 55c90934e81717a17edb932da0a7c77a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SampleScript
