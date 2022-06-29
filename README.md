@@ -30,6 +30,9 @@
     - Optimization -> Strip Engine Code の チェックを外す  
       最適化により誤って必要なコードが除外されてしまうことを防止します
 
+- その他ネットワーク周りの環境構築で参考にしたページ
+  - [UnityとMagicOnionの環境構築（IL2CPP）](https://zenn.dev/kumatta_ss/articles/dab376b180aa85)
+  - [Android 版のビルド、および実行手順](https://www.monobitengine.com/doc/mun/contents/Platform/Build_Android.htm)
 
 
 ## ARLocationSharing のサーバープログラム デプロイ手順(個人用メモです)
