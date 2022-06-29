@@ -33,8 +33,8 @@ public class SampleScript : MonoBehaviour
     // string host = "192.168.32.237"; // ローカルネットワーク内のサーバーに送信する場合 (プライベートアドレスを固定する必要アリ)
     // string host = "0.0.0.0";
     int port = 12345; // ネットワーク通信用ポート番号
-    public string myname;
-    public string friendname;
+    public static string myname = "taro";
+    public static string friendname = "hanako";
     public Location friendLoc;
     public static float mylat = 34.64611f;
     public static float mylon = 135.0041f;
