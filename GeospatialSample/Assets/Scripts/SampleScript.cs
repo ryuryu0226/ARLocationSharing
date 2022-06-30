@@ -33,11 +33,16 @@ public class SampleScript : MonoBehaviour
     // string host = "192.168.32.237"; // ローカルネットワーク内のサーバーに送信する場合 (プライベートアドレスを固定する必要アリ)
     // string host = "0.0.0.0";
     int port = 12345; // ネットワーク通信用ポート番号
-    public static string myname = "taro";
-    public static string friendname = "hanako";
+    public static string myname = "Taro";
+    public static string friendname = "Hanako";
     public Location friendLoc;
     public static float mylat = 34.64611f;
     public static float mylon = 135.0041f;
+    public static char mychar = 'T';
+    public static float friendlat = 34.64611f;
+    public static float friendlon = 135.0041f;
+    public static char friendchar = 'H';
+
 
     void Start()
     {
@@ -61,12 +66,16 @@ public class SampleScript : MonoBehaviour
         GeospatialPose pose = EarthManager.CameraGeospatialPose;
         mylat = (float)pose.Latitude;
         mylon = (float)pose.Longitude;
+        mychar = Char.ToUpper(myname[0]);
 
         // 位置情報を送受信
         if(currentTime > span)
         {
             LocationSend(myname, pose.Latitude, pose.Longitude, pose.Altitude);
             LocationGet(friendname);
+            friendlat = (float)friendLoc.Latitude;
+            friendlon = (float)friendLoc.Longitude;
+            friendchar = Char.ToUpper(friendLoc.Username[0]);
         }
 
         // トラッキング精度がthresholdより悪い(値が⼤きい)場合
@@ -188,13 +197,13 @@ public class SampleScript : MonoBehaviour
         Location loc = await client.GetLocation(Username); // サーバーへ送信 (GetLocation の実装は /ARLocationSharing/NetworkApp-Server/Services/MyFirstService.cs )
         if (loc.Exist) // 該当ユーザーが存在する
         {
-            Debug.Log($"LocationGet Result: name={loc.Username} lat={loc.Latitude.ToString()} lon={loc.Longitude.ToString()}");
+            // Debug.Log($"LocationGet Result: name={loc.Username} lat={loc.Latitude.ToString()} lon={loc.Longitude.ToString()}");
             friendLoc = new Location();
             friendLoc = loc;
         }
         else // 該当ユーザーが存在しない
         {
-            Debug.Log($"LocationGet Result: name={Username} not registerd in server");
+            // Debug.Log($"LocationGet Result: name={Username} not registerd in server");
         }
         GetResultText.text = $"LocationGet Result: name={loc.Username}\n lat={loc.Latitude}\n lon={loc.Longitude}\n alt={loc.Altitude}";
     }

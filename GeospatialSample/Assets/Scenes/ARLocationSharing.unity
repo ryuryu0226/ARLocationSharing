@@ -343,6 +343,10 @@ PrefabInstance:
 
         TrackingMonitorText'
       objectReference: {fileID: 0}
+    - target: {fileID: 4187726656944609274, guid: 83b0341c48b184e96aea5263a51b185d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83b0341c48b184e96aea5263a51b185d, type: 3}
 --- !u!1 &627447843
@@ -362,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &627447844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -659,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &898007908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,7 +782,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: AIzaSyAQB4qNa58MXu8ou0qrHv26cSWbrFbEKTo
-  zoom: 15
 --- !u!114 &941773021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -856,8 +859,6 @@ MonoBehaviour:
   AnchorManager: {fileID: 634484914}
   SendReultText: {fileID: 627447845}
   GetResultText: {fileID: 898007908}
-  myname: jiro
-  friendname: hanako
 --- !u!114 &1111318167
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -63,10 +63,10 @@ static const int32_t s_InvokerIndices[18] =
 	-1,
 	-1,
 	-1,
-	6509,
-	6509,
-	6548,
-	6548,
+	6510,
+	6510,
+	6549,
+	6549,
 	-1,
 	-1,
 	-1,
@@ -75,7 +75,7 @@ static const int32_t s_InvokerIndices[18] =
 	-1,
 	-1,
 	-1,
-	5598,
+	5599,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
