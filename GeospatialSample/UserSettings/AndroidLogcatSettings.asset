@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0A031FDD4001C8",
         "name": "com.DefaultCompany.GeospatialSample",
-        "processId": 1214,
+        "processId": 10950,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,103 +11,43 @@
         {
             "deviceId": "0A031FDD4001C8",
             "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 4778,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 6036,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 7629,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 9948,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 12426,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 22905,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 24826,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 17747,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 19934,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 21292,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 22550,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 4171,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 29627,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 30188,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 30955,
-            "exited": false
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
             "processId": 31832,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "0A031FDD4001C8",
             "name": "com.DefaultCompany.GeospatialSample",
             "processId": 1214,
+            "exited": true
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 4567,
+            "exited": true
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 9546,
+            "exited": true
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 10313,
+            "exited": true
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.google.android.apps.nexuslauncher",
+            "processId": 2957,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 10950,
             "exited": false
         }
     ],

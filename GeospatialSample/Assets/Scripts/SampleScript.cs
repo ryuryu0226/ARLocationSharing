@@ -113,18 +113,18 @@ public class SampleScript : MonoBehaviour
                 }
                 currentTime = 0f;
             }
-
-            if (displayObject != null)
-            {
-                OutputText.text += string.Format(" Object Position: {0} \n" + " Camera Position: {1} \n",
-                    displayObject.transform.position.ToString(), // オブジェクトの位置
-                    Camera.main.transform.position.ToString() // カメラの位置
-                );
-            }
         }
-
-
+        
+        if (displayObject != null)
+        {
+            OutputText.text += string.Format(" Object Position: {0} \n" + " Camera Position: {1} \n",
+                displayObject.transform.position.ToString(), // オブジェクトの位置
+                Camera.main.transform.position.ToString() // カメラの位置
+            );
+        }
     }
+
+
     void ShowTrackingInfo(string status, GeospatialPose pose)
     {
         // 緯度・経度・⾼度やその精度、statusに代⼊された⽂字列を表⽰
