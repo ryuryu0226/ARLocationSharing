@@ -106,15 +106,15 @@ public class SampleScript : MonoBehaviour
                     {
                         if (anchor != null)
                         {
-                            displayObject.transform.position = anchor.transform.position;
-                            displayObject.transform.rotation = anchor.transform.rotation;
+                            Destroy(displayObject);
+                            displayObject = Instantiate(ContentPrefab, anchor.transform);
                         }
                     }
                 }
                 currentTime = 0f;
             }
         }
-        
+
         if (displayObject != null)
         {
             OutputText.text += string.Format(" Object Position: {0} \n" + " Camera Position: {1} \n",

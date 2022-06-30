@@ -3,29 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "0A031FDD4001C8",
         "name": "com.DefaultCompany.GeospatialSample",
-        "processId": 10950,
+        "processId": 23464,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 31832,
-            "exited": true
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 1214,
-            "exited": true
-        },
-        {
-            "deviceId": "0A031FDD4001C8",
-            "name": "com.DefaultCompany.GeospatialSample",
-            "processId": 4567,
-            "exited": true
-        },
         {
             "deviceId": "0A031FDD4001C8",
             "name": "com.DefaultCompany.GeospatialSample",
@@ -42,12 +24,36 @@
             "deviceId": "0A031FDD4001C8",
             "name": "com.google.android.apps.nexuslauncher",
             "processId": 2957,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "0A031FDD4001C8",
             "name": "com.DefaultCompany.GeospatialSample",
             "processId": 10950,
+            "exited": true
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 20976,
+            "exited": true
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.google.android.apps.nexuslauncher",
+            "processId": 17065,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 22122,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 23464,
             "exited": false
         }
     ],
