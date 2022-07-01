@@ -10251,6 +10251,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Rect_get_yMin_m2C91041817D410B32B80E338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_offsetMin_m86D7818770137C150B70A3842EBF03F494C34271 (RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.RectTransform::set_offsetMax(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_offsetMax_m5FDE1063C8BA1EC98D3C57C58DD2A1B9B721A8BF (RectTransform_t8A6A306FB29A6C8C22010CF9040E319753571072 * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___value0, const RuntimeMethod* method);
+// System.Void SampleScript::OnClickTextButton()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleScript_OnClickTextButton_m5CA5F4E157AFF0B0DE1ED1DA8E1A9617BAD576EC (SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * __this, const RuntimeMethod* method);
 // System.Boolean AR_Fukuoka.VpsInitializer::get_IsReady()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VpsInitializer_get_IsReady_m6779687169C91C6784E5B4DDAB5AE6E06F3C626F_inline (VpsInitializer_tF90B64868562B7A4C54A3A9CB7F1946B11E13133 * __this, const RuntimeMethod* method);
 // System.Char System.String::get_Chars(System.Int32)
@@ -14648,6 +14650,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeAreaScaler__ctor_m544B703D9F6040FCF1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleScript_Start_mF9A8FA37BACEC0B005219B0CFE6642C744E92644 (SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * __this, const RuntimeMethod* method)
 {
 	{
+		// OnClickTextButton();
+		SampleScript_OnClickTextButton_m5CA5F4E157AFF0B0DE1ED1DA8E1A9617BAD576EC(__this, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -15232,6 +15236,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleScript__ctor_m49FA8D6A40F27E58499A
 		__this->set_host_16(_stringLiteral4C60E532EB7C1614B2A9A250E36804D6C6367B61);
 		// int port = 12345; // ネットワーク通信用ポート番号
 		__this->set_port_17(((int32_t)12345));
+		// bool textflag = true;
+		__this->set_textflag_27((bool)1);
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}

@@ -42,13 +42,14 @@ public class SampleScript : MonoBehaviour
     public static float friendlat = 34.64611f;
     public static float friendlon = 135.0041f;
     public static char friendchar = 'H';
-    bool textflag = false;
+    bool textflag = true;
 
 
     void Start()
     {
         // 原点（アプリケーションの起動位置）にピンを表示
         // GameObject zero = Instantiate(ContentPrefab, Vector3.zero, Quaternion.identity);
+        OnClickTextButton();
     }
 
 
