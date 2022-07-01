@@ -9,7 +9,7 @@ public class DrawGoogleMap : MonoBehaviour
     // Google Maps Embed API
     public string key = null;
     int zoom = 18;
-    float span = 5f;
+    float span = 3;
     private float currentTime = 0f;
 
 

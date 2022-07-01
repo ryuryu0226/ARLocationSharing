@@ -7464,23 +7464,23 @@ public:
 };
 
 
-// SampleScript/<LocationGet>d__27
-struct U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831 
+// SampleScript/<LocationGet>d__28
+struct U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35 
 {
 public:
-	// System.Int32 SampleScript/<LocationGet>d__27::<>1__state
+	// System.Int32 SampleScript/<LocationGet>d__28::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<LocationGet>d__27::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<LocationGet>d__28::<>t__builder
 	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
-	// SampleScript SampleScript/<LocationGet>d__27::<>4__this
+	// SampleScript SampleScript/<LocationGet>d__28::<>4__this
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * ___U3CU3E4__this_2;
-	// System.String SampleScript/<LocationGet>d__27::Username
+	// System.String SampleScript/<LocationGet>d__28::Username
 	String_t* ___Username_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<MyApp.Shared.Location> SampleScript/<LocationGet>d__27::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<MyApp.Shared.Location> SampleScript/<LocationGet>d__28::<>u__1
 	TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  ___U3CU3Eu__1_4;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -7488,7 +7488,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
@@ -7506,7 +7506,7 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35, ___U3CU3E4__this_2)); }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * value)
@@ -7515,7 +7515,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Username_3() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831, ___Username_3)); }
+	inline static int32_t get_offset_of_Username_3() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35, ___Username_3)); }
 	inline String_t* get_Username_3() const { return ___Username_3; }
 	inline String_t** get_address_of_Username_3() { return &___Username_3; }
 	inline void set_Username_3(String_t* value)
@@ -7524,7 +7524,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___Username_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831, ___U3CU3Eu__1_4)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35, ___U3CU3Eu__1_4)); }
 	inline TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
 	inline TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054 * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
 	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  value)
@@ -7535,29 +7535,29 @@ public:
 };
 
 
-// SampleScript/<LocationSend>d__26
-struct U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464 
+// SampleScript/<LocationSend>d__27
+struct U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10 
 {
 public:
-	// System.Int32 SampleScript/<LocationSend>d__26::<>1__state
+	// System.Int32 SampleScript/<LocationSend>d__27::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<LocationSend>d__26::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<LocationSend>d__27::<>t__builder
 	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
-	// SampleScript SampleScript/<LocationSend>d__26::<>4__this
+	// SampleScript SampleScript/<LocationSend>d__27::<>4__this
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * ___U3CU3E4__this_2;
-	// System.String SampleScript/<LocationSend>d__26::Username
+	// System.String SampleScript/<LocationSend>d__27::Username
 	String_t* ___Username_3;
-	// System.Double SampleScript/<LocationSend>d__26::Latitude
+	// System.Double SampleScript/<LocationSend>d__27::Latitude
 	double ___Latitude_4;
-	// System.Double SampleScript/<LocationSend>d__26::Longitude
+	// System.Double SampleScript/<LocationSend>d__27::Longitude
 	double ___Longitude_5;
-	// System.Double SampleScript/<LocationSend>d__26::Altitude
+	// System.Double SampleScript/<LocationSend>d__27::Altitude
 	double ___Altitude_6;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> SampleScript/<LocationSend>d__26::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> SampleScript/<LocationSend>d__27::<>u__1
 	TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  ___U3CU3Eu__1_7;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -7565,7 +7565,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
@@ -7583,7 +7583,7 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___U3CU3E4__this_2)); }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * value)
@@ -7592,7 +7592,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Username_3() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___Username_3)); }
+	inline static int32_t get_offset_of_Username_3() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___Username_3)); }
 	inline String_t* get_Username_3() const { return ___Username_3; }
 	inline String_t** get_address_of_Username_3() { return &___Username_3; }
 	inline void set_Username_3(String_t* value)
@@ -7601,7 +7601,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___Username_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Latitude_4() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___Latitude_4)); }
+	inline static int32_t get_offset_of_Latitude_4() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___Latitude_4)); }
 	inline double get_Latitude_4() const { return ___Latitude_4; }
 	inline double* get_address_of_Latitude_4() { return &___Latitude_4; }
 	inline void set_Latitude_4(double value)
@@ -7609,7 +7609,7 @@ public:
 		___Latitude_4 = value;
 	}
 
-	inline static int32_t get_offset_of_Longitude_5() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___Longitude_5)); }
+	inline static int32_t get_offset_of_Longitude_5() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___Longitude_5)); }
 	inline double get_Longitude_5() const { return ___Longitude_5; }
 	inline double* get_address_of_Longitude_5() { return &___Longitude_5; }
 	inline void set_Longitude_5(double value)
@@ -7617,7 +7617,7 @@ public:
 		___Longitude_5 = value;
 	}
 
-	inline static int32_t get_offset_of_Altitude_6() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___Altitude_6)); }
+	inline static int32_t get_offset_of_Altitude_6() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___Altitude_6)); }
 	inline double get_Altitude_6() const { return ___Altitude_6; }
 	inline double* get_address_of_Altitude_6() { return &___Altitude_6; }
 	inline void set_Altitude_6(double value)
@@ -7625,7 +7625,7 @@ public:
 		___Altitude_6 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_7() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464, ___U3CU3Eu__1_7)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_7() { return static_cast<int32_t>(offsetof(U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10, ___U3CU3Eu__1_7)); }
 	inline TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  get_U3CU3Eu__1_7() const { return ___U3CU3Eu__1_7; }
 	inline TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C * get_address_of_U3CU3Eu__1_7() { return &___U3CU3Eu__1_7; }
 	inline void set_U3CU3Eu__1_7(TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  value)
@@ -7636,27 +7636,27 @@ public:
 };
 
 
-// SampleScript/<NetworkCallTest>d__28
-struct U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57 
+// SampleScript/<NetworkCallTest>d__29
+struct U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249 
 {
 public:
-	// System.Int32 SampleScript/<NetworkCallTest>d__28::<>1__state
+	// System.Int32 SampleScript/<NetworkCallTest>d__29::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<NetworkCallTest>d__28::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder SampleScript/<NetworkCallTest>d__29::<>t__builder
 	AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  ___U3CU3Et__builder_1;
-	// SampleScript SampleScript/<NetworkCallTest>d__28::<>4__this
+	// SampleScript SampleScript/<NetworkCallTest>d__29::<>4__this
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * ___U3CU3E4__this_2;
-	// MyApp.Shared.IMyFirstService SampleScript/<NetworkCallTest>d__28::<client>5__2
+	// MyApp.Shared.IMyFirstService SampleScript/<NetworkCallTest>d__29::<client>5__2
 	RuntimeObject* ___U3CclientU3E5__2_3;
-	// System.String SampleScript/<NetworkCallTest>d__28::<username>5__3
+	// System.String SampleScript/<NetworkCallTest>d__29::<username>5__3
 	String_t* ___U3CusernameU3E5__3_4;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> SampleScript/<NetworkCallTest>d__28::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> SampleScript/<NetworkCallTest>d__29::<>u__1
 	TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  ___U3CU3Eu__1_5;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<MyApp.Shared.Location> SampleScript/<NetworkCallTest>d__28::<>u__2
+	// System.Runtime.CompilerServices.TaskAwaiter`1<MyApp.Shared.Location> SampleScript/<NetworkCallTest>d__29::<>u__2
 	TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  ___U3CU3Eu__2_6;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -7664,7 +7664,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_tA31C888168B27AABF7B0D9E7DF720547D4892DE6  value)
@@ -7682,7 +7682,7 @@ public:
 		#endif
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CU3E4__this_2)); }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186 * value)
@@ -7691,7 +7691,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CclientU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CclientU3E5__2_3)); }
+	inline static int32_t get_offset_of_U3CclientU3E5__2_3() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CclientU3E5__2_3)); }
 	inline RuntimeObject* get_U3CclientU3E5__2_3() const { return ___U3CclientU3E5__2_3; }
 	inline RuntimeObject** get_address_of_U3CclientU3E5__2_3() { return &___U3CclientU3E5__2_3; }
 	inline void set_U3CclientU3E5__2_3(RuntimeObject* value)
@@ -7700,7 +7700,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CclientU3E5__2_3), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CusernameU3E5__3_4() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CusernameU3E5__3_4)); }
+	inline static int32_t get_offset_of_U3CusernameU3E5__3_4() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CusernameU3E5__3_4)); }
 	inline String_t* get_U3CusernameU3E5__3_4() const { return ___U3CusernameU3E5__3_4; }
 	inline String_t** get_address_of_U3CusernameU3E5__3_4() { return &___U3CusernameU3E5__3_4; }
 	inline void set_U3CusernameU3E5__3_4(String_t* value)
@@ -7709,7 +7709,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CusernameU3E5__3_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_5() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CU3Eu__1_5)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_5() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CU3Eu__1_5)); }
 	inline TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  get_U3CU3Eu__1_5() const { return ___U3CU3Eu__1_5; }
 	inline TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C * get_address_of_U3CU3Eu__1_5() { return &___U3CU3Eu__1_5; }
 	inline void set_U3CU3Eu__1_5(TaskAwaiter_1_t98B8214BA5C5BD14FD8D98B71C67E11FFE8B684C  value)
@@ -7718,7 +7718,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)&(((&___U3CU3Eu__1_5))->___m_task_0), (void*)NULL);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57, ___U3CU3Eu__2_6)); }
+	inline static int32_t get_offset_of_U3CU3Eu__2_6() { return static_cast<int32_t>(offsetof(U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249, ___U3CU3Eu__2_6)); }
 	inline TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  get_U3CU3Eu__2_6() const { return ___U3CU3Eu__2_6; }
 	inline TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054 * get_address_of_U3CU3Eu__2_6() { return &___U3CU3Eu__2_6; }
 	inline void set_U3CU3Eu__2_6(TaskAwaiter_1_t73C37F493347E8BB2A619022950AF777D6C4E054  value)
@@ -9104,6 +9104,8 @@ public:
 	int32_t ___port_17;
 	// MyApp.Shared.Location SampleScript::friendLoc
 	Location_tB4B6F083CEB6F975A7753E3B601856BED01E4527 * ___friendLoc_20;
+	// System.Boolean SampleScript::textflag
+	bool ___textflag_27;
 
 public:
 	inline static int32_t get_offset_of_EarthManager_4() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___EarthManager_4)); }
@@ -9234,6 +9236,14 @@ public:
 	{
 		___friendLoc_20 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___friendLoc_20), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_textflag_27() { return static_cast<int32_t>(offsetof(SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186, ___textflag_27)); }
+	inline bool get_textflag_27() const { return ___textflag_27; }
+	inline bool* get_address_of_textflag_27() { return &___textflag_27; }
+	inline void set_textflag_27(bool value)
+	{
+		___textflag_27 = value;
 	}
 };
 
@@ -14015,34 +14025,34 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4593[1] =
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4595[8] = 
 {
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_Username_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_Latitude_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_Longitude_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_Altitude_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationSendU3Ed__26_tFAD5F55CA83BA9AC8D5EB5E50F42CBBEE8B16464::get_offset_of_U3CU3Eu__1_7() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_Username_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_Latitude_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_Longitude_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_Altitude_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationSendU3Ed__27_t8AFF17E6D2B8C47BB40DF3A2A3B90F7C57990F10::get_offset_of_U3CU3Eu__1_7() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4596[5] = 
 {
-	U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831::get_offset_of_Username_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CLocationGetU3Ed__27_t65BDF6067B549D89EEFE2EF15E632B3744F36831::get_offset_of_U3CU3Eu__1_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35::get_offset_of_Username_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CLocationGetU3Ed__28_t80B0108ABF4BEA9818612FCC8F78B23B037E9D35::get_offset_of_U3CU3Eu__1_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4597[7] = 
 {
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CclientU3E5__2_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CusernameU3E5__3_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CU3Eu__1_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	U3CNetworkCallTestU3Ed__28_t002A2E4E6473FD2B4526DC74339B55109FADCF57::get_offset_of_U3CU3Eu__2_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CU3E1__state_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CU3Et__builder_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CU3E4__this_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CclientU3E5__2_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CusernameU3E5__3_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CU3Eu__1_5() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	U3CNetworkCallTestU3Ed__29_tCE898C1DE0F8AE474E25F6DDD49EF7452D783249::get_offset_of_U3CU3Eu__2_6() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4598[23] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4598[24] = 
 {
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_EarthManager_4(),
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_Initializer_5(),
@@ -14067,6 +14077,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4598[23] =
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields::get_offset_of_friendlat_24(),
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields::get_offset_of_friendlon_25(),
 	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186_StaticFields::get_offset_of_friendchar_26(),
+	SampleScript_tADEACD51DA09B1912CF20CB233644641C8A36186::get_offset_of_textflag_27(),
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4599[5] = 
 {

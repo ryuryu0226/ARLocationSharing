@@ -26,7 +26,7 @@ public class SampleScript : MonoBehaviour
     public ARAnchorManager AnchorManager; // アンカー作成に使⽤
     public Text SendReultText; // 送信結果確認用
     public Text GetResultText; // 受信結果確認用
-    float span = 3f;
+    float span = 1;
     private float currentTime = 0f;
     string host = "160.251.18.95"; // VPS サーバーに送信する場合 (グローバル通信)
     // string host = "localhost"; // 同一マシン内のサーバーに送信する場合
@@ -42,6 +42,7 @@ public class SampleScript : MonoBehaviour
     public static float friendlat = 34.64611f;
     public static float friendlon = 135.0041f;
     public static char friendchar = 'H';
+    bool textflag = false;
 
 
     void Start()
@@ -246,5 +247,14 @@ public class SampleScript : MonoBehaviour
             Debug.Log($"GetLocation Result: name={username} not registerd in server");
         }
         GetResultText.text += $"\n GetLocation Result: name={loc.Username}, lat={loc.Latitude}, lon={loc.Longitude}, alt={loc.Altitude}";
+    }
+
+
+    public void OnClickTextButton()
+    {
+        textflag = !textflag;
+        OutputText.gameObject.SetActive(textflag);
+        SendReultText.gameObject.SetActive(textflag);
+        GetResultText.gameObject.SetActive(textflag);
     }
 }

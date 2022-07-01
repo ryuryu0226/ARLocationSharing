@@ -90,13 +90,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2816}
     - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
       Script: {instanceID: 3008}
     - Class: 114
       Script: {instanceID: 3172}
     - Class: 114
       Script: {instanceID: 3250}
     - Class: 114
+      Script: {instanceID: 3438}
+    - Class: 114
       Script: {instanceID: 3440}
+    - Class: 114
+      Script: {instanceID: 3568}
     - Class: 114
       Script: {instanceID: 3788}
     - Class: 114
@@ -124,6 +130,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}

@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "0A031FDD4001C8",
         "name": "com.DefaultCompany.GeospatialSample",
-        "processId": 11837,
+        "processId": 4173,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -78,6 +78,30 @@
             "deviceId": "0A031FDD4001C8",
             "name": "com.DefaultCompany.GeospatialSample",
             "processId": 11837,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 31016,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 32375,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 1666,
+            "exited": false
+        },
+        {
+            "deviceId": "0A031FDD4001C8",
+            "name": "com.DefaultCompany.GeospatialSample",
+            "processId": 4173,
             "exited": false
         }
     ],
